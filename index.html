@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Crop Ledger — Sunflower Land P2P Prices</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.4/chart.umd.min.js"></script>
+<style>
+  :root {
+    --bg: #12160e;
+    --surface: #1a2013;
+    --surface-2: #212816;
+    --border: #2d3624;
+    --text: #f2efe2;
+    --text-secondary: #a9ab97;
+    --text-muted: #767863;
+    --accent: #f0b429;
+    --accent-dim: #8a6a1c;
+    --leaf: #7fb238;
+    --leaf-dim: #4a6521;
+    --up: #7fb238;
+    --down: #d9694f;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Inter', sans-serif;
+    line-height: 1.5;
+  }
+  .wrap { max-width: 960px; margin: 0 auto; padding: 2rem 1.25rem 4rem; }
+  header { margin-bottom: 2rem; }
+  .eyebrow {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--leaf);
+    margin: 0 0 0.4rem;
+  }
+  h1 {
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
+    font-size: clamp(28px, 6vw, 40px);
+    margin: 0 0 0.4rem;
+    color: var(--text);
+  }
+  .sub { color: var(--text-secondary); font-size: 14px; margin: 0; }
+  .updated { font-family: 'JetBrains Mono', monospace; font-size: 12px; color: var(--text-muted); margin-top: 0.5rem; }
+
+  .card {
+    background: var(--surface);
+    border: 0.5px solid var(--border);
+    border-radius: 12px;
+    padding: 1.25rem;
+    margin-bottom: 1.5rem;
+  }
+  .card h2 {
+    font-family: 'Fraunces', serif;
+    font-weight: 500;
+    font-size: 18px;
+    margin: 0 0 1rem;
+  }
+
+  #empty-state {
+    text-align: center;
+    padding: 3rem 1rem;
+    color: var(--text-secondary);
+  }
+  #empty-state .ti { font-size: 32px; color: var(--leaf); margin-bottom: 0.75rem; display: block; }
+
+  .categories { display: flex; flex-direction: column; gap: 1rem; margin-bottom: 1rem; }
+  .cat-group { border-left: 2px solid var(--leaf-dim); padding-left: 0.75rem; }
+  .cat-title {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--text-muted);
+    margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .cat-title button {
+    background: none; border: none; color: var(--leaf);
+    font-family: 'JetBrains Mono', monospace; font-size: 11px;
+    cursor: pointer; padding: 0; text-decoration: underline;
+  }
+  .chip-row { display: flex; flex-wrap: wrap; gap: 6px; }
+  .chip {
+    font-size: 13px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: 0.5px solid var(--border);
+    background: var(--surface-2);
+    color: var(--text-secondary);
+    cursor: pointer;
+    user-select: none;
+  }
+  .chip.active {
+    background: var(--accent-dim);
+    border-color: var(--accent);
+    color: var(--accent);
+  }
+
+  .chart-wrap { position: relative; height: 320px; }
+
+  table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  thead th {
+    text-align: left;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--text-muted);
+    font-weight: 500;
+    padding: 6px 8px;
+    border-bottom: 0.5px solid var(--border);
+  }
+  tbody td { padding: 8px; border-bottom: 0.5px solid var(--border); }
+  tbody tr:last-child td { border-bottom: none; }
+  tbody tr:hover { background: var(--surface-2); }
+  td.num, th.num { text-align: right; font-family: 'JetBrains Mono', monospace; }
+  .delta-up { color: var(--up); }
+  .delta-down { color: var(--down); }
+  .delta-flat { color: var(--text-muted); }
+
+  footer { color: var(--text-muted); font-size: 12px; margin-top: 2rem; text-align: center; }
+  footer a { color: var(--leaf); }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <p class="eyebrow">Sunflower Land · Personal tracker</p>
+    <h1>Crop ledger</h1>
+    <p class="sub">Daily P2P marketplace prices, logged automatically from sfl.world.</p>
+    <p class="updated" id="updated-line">Loading history…</p>
+  </header>
+
+  <div id="empty-state" class="card" style="display:none;">
+    <span>🌱</span>
+    <p><strong>Wala pang data.</strong> Kapag tumakbo na yung daily GitHub Action (o pag manual mo pinatakbo yung script), lalabas dito yung price history.</p>
+  </div>
+
+  <div id="content" style="display:none;">
+
+    <div class="card">
+      <h2>Price history</h2>
+      <div class="categories" id="categories"></div>
+      <div class="chart-wrap"><canvas id="priceChart"></canvas></div>
+    </div>
+
+    <div class="card">
+      <h2>Latest prices</h2>
+      <table>
+        <thead>
+          <tr><th>Crop</th><th class="num">Price</th><th class="num">1-day change</th></tr>
+        </thead>
+        <tbody id="price-table"></tbody>
+      </table>
+    </div>
+
+  </div>
+
+  <footer>
+    Data mula sa <a href="https://sfl.world" target="_blank" rel="noopener">sfl.world</a> P2P prices API. Hindi ito financial advice — para lang sa personal reference.
+  </footer>
+
+</div>
+
+<script>
+const CROP_CATEGORIES = {
+  "Basic crops": ["Sunflower","Potato","Pumpkin","Carrot","Cabbage","Beetroot","Cauliflower","Parsnip","Radish","Wheat","Kale","Barley"],
+  "Fruits": ["Apple","Blueberry","Orange","Banana","Tomato","Lemon"],
+  "Greenhouse": ["Rice","Grape","Olive","Soybean"],
+  "Island / Cave": ["Eggplant","Corn","Rhubarb","Zucchini","Yam","Broccoli","Pepper","Onion","Turnip","Artichoke"],
+  "Special": ["Duskberry","Lunara","Celestine"]
+};
+
+const LINE_COLORS = ["#f0b429","#7fb238","#5b9bd5","#d9694f","#c084d4","#4fc3c9","#e2a1c4","#9aa832"];
+
+let chart = null;
+let history = [];
+let selected = new Set(["Sunflower","Potato","Carrot","Wheat","Pumpkin"]);
+
+async function loadData() {
+  try {
+    const res = await fetch('./data/crop-history.json', { cache: 'no-store' });
+    history = await res.json();
+  } catch (e) {
+    history = [];
+  }
+
+  if (!history || history.length === 0) {
+    document.getElementById('empty-state').style.display = 'block';
+    document.getElementById('updated-line').textContent = 'Wala pang naka-record na data.';
+    return;
+  }
+
+  document.getElementById('content').style.display = 'block';
+  const last = history[history.length - 1];
+  document.getElementById('updated-line').textContent =
+    `${history.length} araw ng naka-record na data · huling entry: ${last.date}`;
+
+  buildCategoryPicker();
+  renderChart();
+  renderTable();
+}
+
+function buildCategoryPicker() {
+  const container = document.getElementById('categories');
+  container.innerHTML = '';
+  Object.entries(CROP_CATEGORIES).forEach(([cat, crops]) => {
+    const group = document.createElement('div');
+    group.className = 'cat-group';
+
+    const title = document.createElement('div');
+    title.className = 'cat-title';
+    title.innerHTML = `<span>${cat}</span>`;
+    const toggleBtn = document.createElement('button');
+    toggleBtn.textContent = 'toggle all';
+    toggleBtn.onclick = () => {
+      const allOn = crops.every(c => selected.has(c));
+      crops.forEach(c => allOn ? selected.delete(c) : selected.add(c));
+      buildCategoryPicker();
+      renderChart();
+    };
+    title.appendChild(toggleBtn);
+    group.appendChild(title);
+
+    const row = document.createElement('div');
+    row.className = 'chip-row';
+    crops.forEach(crop => {
+      const chip = document.createElement('span');
+      chip.className = 'chip' + (selected.has(crop) ? ' active' : '');
+      chip.textContent = crop;
+      chip.onclick = () => {
+        selected.has(crop) ? selected.delete(crop) : selected.add(crop);
+        buildCategoryPicker();
+        renderChart();
+      };
+      row.appendChild(chip);
+    });
+    group.appendChild(row);
+    container.appendChild(group);
+  });
+}
+
+function renderChart() {
+  const labels = history.map(h => h.date);
+  const cropList = Array.from(selected);
+
+  const datasets = cropList.map((crop, i) => ({
+    label: crop,
+    data: history.map(h => h.prices[crop] ?? null),
+    borderColor: LINE_COLORS[i % LINE_COLORS.length],
+    backgroundColor: 'transparent',
+    borderWidth: 2,
+    pointRadius: 2,
+    tension: 0.25,
+    spanGaps: true,
+  }));
+
+  const ctx = document.getElementById('priceChart').getContext('2d');
+  if (chart) chart.destroy();
+  chart = new Chart(ctx, {
+    type: 'line',
+    data: { labels, datasets },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      interaction: { mode: 'index', intersect: false },
+      plugins: {
+        legend: { labels: { color: '#a9ab97', font: { family: 'Inter', size: 12 } } },
+        tooltip: {
+          backgroundColor: '#1a2013',
+          borderColor: '#2d3624',
+          borderWidth: 1,
+          titleColor: '#f2efe2',
+          bodyColor: '#f2efe2',
+        }
+      },
+      scales: {
+        x: { ticks: { color: '#767863', font: { size: 11 } }, grid: { color: '#2d3624' } },
+        y: { ticks: { color: '#767863', font: { size: 11 } }, grid: { color: '#2d3624' } }
+      }
+    }
+  });
+}
+
+function renderTable() {
+  const tbody = document.getElementById('price-table');
+  tbody.innerHTML = '';
+  if (history.length === 0) return;
+
+  const last = history[history.length - 1];
+  const prev = history.length > 1 ? history[history.length - 2] : null;
+
+  const allCrops = Object.values(CROP_CATEGORIES).flat();
+  const rows = allCrops
+    .filter(c => last.prices[c] !== undefined)
+    .map(crop => {
+      const price = last.prices[crop];
+      const prevPrice = prev ? prev.prices[crop] : null;
+      let deltaPct = null;
+      if (prevPrice !== null && prevPrice !== undefined && prevPrice !== 0) {
+        deltaPct = ((price - prevPrice) / prevPrice) * 100;
+      }
+      return { crop, price, deltaPct };
+    });
+
+  rows.forEach(r => {
+    const tr = document.createElement('tr');
+    const deltaClass = r.deltaPct === null ? 'delta-flat' : r.deltaPct > 0 ? 'delta-up' : r.deltaPct < 0 ? 'delta-down' : 'delta-flat';
+    const deltaText = r.deltaPct === null ? '—' : `${r.deltaPct > 0 ? '▲' : r.deltaPct < 0 ? '▼' : '·'} ${Math.abs(r.deltaPct).toFixed(1)}%`;
+    tr.innerHTML = `
+      <td>${r.crop}</td>
+      <td class="num">${r.price.toFixed(6)}</td>
+      <td class="num ${deltaClass}">${deltaText}</td>
+    `;
+    tbody.appendChild(tr);
+  });
+}
+
+loadData();
+</script>
+</body>
+</html>

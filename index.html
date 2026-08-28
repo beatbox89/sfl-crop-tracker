@@ -7,7 +7,23 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.4/chart.umd.min.js"></script>
+<script>
+  (function loadChartJs(sources, i) {
+    if (i >= sources.length) {
+      window.__chartLoadFailed = true;
+      return;
+    }
+    var s = document.createElement('script');
+    s.src = sources[i];
+    s.onload = function () { window.__chartReady = true; };
+    s.onerror = function () { loadChartJs(sources, i + 1); };
+    document.head.appendChild(s);
+  })([
+    'https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js',
+    'https://unpkg.com/chart.js@4.4.4/dist/chart.umd.min.js',
+    'https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.4/chart.umd.min.js'
+  ], 0);
+</script>
 <style>
   :root {
     --bg: #12160e;
@@ -190,6 +206,20 @@ let chart = null;
 let history = [];
 let selected = new Set(["Sunflower","Potato","Carrot","Wheat","Pumpkin"]);
 
+function waitForChartJs(timeoutMs) {
+  return new Promise((resolve, reject) => {
+    const start = Date.now();
+    const check = () => {
+      if (window.Chart) return resolve();
+      if (window.__chartLoadFailed || Date.now() - start > timeoutMs) {
+        return reject(new Error('chartjs-load-failed'));
+      }
+      requestAnimationFrame(check);
+    };
+    check();
+  });
+}
+
 async function loadData() {
   try {
     const res = await fetch('./data/crop-history.json', { cache: 'no-store' });
@@ -210,8 +240,18 @@ async function loadData() {
     `${history.length} araw ng naka-record na data · huling entry: ${last.date}`;
 
   buildCategoryPicker();
-  renderChart();
   renderTable();
+
+  try {
+    await waitForChartJs(8000);
+    renderChart();
+  } catch (e) {
+    const chartWrap = document.querySelector('.chart-wrap');
+    chartWrap.innerHTML =
+      '<div style="text-align:center; padding:2rem; color:var(--text-secondary); font-size:13px;">' +
+      'Hindi ma-load yung chart library (baka naka-block ng network/firewall mo ang cdn.jsdelivr.net at unpkg.com). ' +
+      'Nasa ibaba pa rin ang table ng latest prices.</div>';
+  }
 }
 
 function buildCategoryPicker() {

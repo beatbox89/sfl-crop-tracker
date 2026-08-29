@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Crop Ledger — Sunflower Land P2P Prices</title>
+<title>Market Ledger — Sunflower Land P2P Prices</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -140,11 +140,28 @@
   }
   tbody td { padding: 8px; border-bottom: 0.5px solid var(--border); }
   tbody tr:last-child td { border-bottom: none; }
-  tbody tr:hover { background: var(--surface-2); }
+  tbody tr:hover { background: var(--surface-2); cursor: pointer; }
   td.num, th.num { text-align: right; font-family: 'JetBrains Mono', monospace; }
   .delta-up { color: var(--up); }
   .delta-down { color: var(--down); }
   .delta-flat { color: var(--text-muted); }
+  .hint { font-size: 12px; color: var(--text-muted); margin: -0.5rem 0 0.75rem; }
+
+  .back-btn {
+    background: none; border: 0.5px solid var(--border); color: var(--text-secondary);
+    font-family: 'JetBrains Mono', monospace; font-size: 12px;
+    padding: 6px 12px; border-radius: 20px; cursor: pointer; margin-bottom: 1rem;
+  }
+  .back-btn:hover { border-color: var(--leaf); color: var(--leaf); }
+
+  .detail-header { display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 1rem; flex-wrap: wrap; gap: 8px; }
+  .detail-header h2 { margin: 0; }
+  .detail-price { font-family: 'JetBrains Mono', monospace; font-size: 22px; color: var(--accent); }
+
+  .stat-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-bottom: 1.5rem; }
+  .stat-card { background: var(--surface-2); border-radius: 8px; padding: 0.75rem; text-align: center; }
+  .stat-label { font-family: 'JetBrains Mono', monospace; font-size: 10px; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-muted); margin-bottom: 4px; }
+  .stat-value { font-family: 'JetBrains Mono', monospace; font-size: 15px; color: var(--text); }
 
   footer { color: var(--text-muted); font-size: 12px; margin-top: 2rem; text-align: center; }
   footer a { color: var(--leaf); }
@@ -155,8 +172,8 @@
 
   <header>
     <p class="eyebrow">Sunflower Land · Personal tracker</p>
-    <h1>Crop ledger</h1>
-    <p class="sub">Daily P2P marketplace prices, logged automatically from sfl.world.</p>
+    <h1>Market ledger</h1>
+    <p class="sub">Daily P2P marketplace prices para sa crops, resources, at animal products — logged automatically mula sa sfl.world.</p>
     <p class="updated" id="updated-line">Loading history…</p>
   </header>
 
@@ -175,6 +192,7 @@
 
     <div class="card">
       <h2>Latest prices</h2>
+      <p class="hint">I-click ang isang crop para makita ang sarili nitong chart.</p>
       <table>
         <thead>
           <tr><th>Crop</th><th class="num">Price</th><th class="num">1-day change</th></tr>
@@ -185,6 +203,20 @@
 
   </div>
 
+  <div id="detail-view" class="card" style="display:none;">
+    <button class="back-btn" id="detail-back">&larr; Balik sa lahat ng crops</button>
+    <div class="detail-header">
+      <h2 id="detail-name">Crop</h2>
+      <span class="detail-price" id="detail-price">0.000000</span>
+    </div>
+    <div class="stat-grid">
+      <div class="stat-card"><div class="stat-label">Lowest</div><div class="stat-value" id="detail-min">—</div></div>
+      <div class="stat-card"><div class="stat-label">Highest</div><div class="stat-value" id="detail-max">—</div></div>
+      <div class="stat-card"><div class="stat-label">Average</div><div class="stat-value" id="detail-avg">—</div></div>
+    </div>
+    <div class="chart-wrap"><canvas id="detailChart"></canvas></div>
+  </div>
+
   <footer>
     Data mula sa <a href="https://sfl.world" target="_blank" rel="noopener">sfl.world</a> P2P prices API. Hindi ito financial advice — para lang sa personal reference.
   </footer>
@@ -192,13 +224,17 @@
 </div>
 
 <script>
-const CROP_CATEGORIES = {
+const BASE_CATEGORIES = {
   "Basic crops": ["Sunflower","Potato","Pumpkin","Carrot","Cabbage","Beetroot","Cauliflower","Parsnip","Radish","Wheat","Kale","Barley"],
   "Fruits": ["Apple","Blueberry","Orange","Banana","Tomato","Lemon"],
   "Greenhouse": ["Rice","Grape","Olive","Soybean"],
   "Island / Cave": ["Eggplant","Corn","Rhubarb","Zucchini","Yam","Broccoli","Pepper","Onion","Turnip","Artichoke"],
-  "Special": ["Duskberry","Lunara","Celestine"]
+  "Special": ["Duskberry","Lunara","Celestine"],
+  "Resources (Mining)": ["Wood","Stone","Iron","Gold","Crimstone","Obsidian"],
+  "Animal products": ["Egg","Honey","Leather","Wool","Merino Wool","Feather","Milk"],
 };
+
+let CATEGORIES = { ...BASE_CATEGORIES };
 
 const LINE_COLORS = ["#f0b429","#7fb238","#5b9bd5","#d9694f","#c084d4","#4fc3c9","#e2a1c4","#9aa832"];
 
@@ -239,6 +275,13 @@ async function loadData() {
   document.getElementById('updated-line').textContent =
     `${history.length} araw ng naka-record na data · huling entry: ${last.date}`;
 
+  // Dynamic na category building — kahit anong item na wala pa sa BASE_CATEGORIES,
+  // awtomatikong isasama sa "Other" (kasama ang mga bagong idadagdag ng laro sa hinaharap)
+  const known = new Set(Object.values(BASE_CATEGORIES).flat());
+  const extra = Object.keys(last.prices).filter(k => !known.has(k)).sort();
+  CATEGORIES = { ...BASE_CATEGORIES };
+  if (extra.length > 0) CATEGORIES["Other"] = extra;
+
   buildCategoryPicker();
   renderTable();
 
@@ -257,7 +300,7 @@ async function loadData() {
 function buildCategoryPicker() {
   const container = document.getElementById('categories');
   container.innerHTML = '';
-  Object.entries(CROP_CATEGORIES).forEach(([cat, crops]) => {
+  Object.entries(CATEGORIES).forEach(([cat, crops]) => {
     const group = document.createElement('div');
     group.className = 'cat-group';
 
@@ -343,7 +386,7 @@ function renderTable() {
   const last = history[history.length - 1];
   const prev = history.length > 1 ? history[history.length - 2] : null;
 
-  const allCrops = Object.values(CROP_CATEGORIES).flat();
+  const allCrops = Object.values(CATEGORIES).flat();
   const rows = allCrops
     .filter(c => last.prices[c] !== undefined)
     .map(crop => {
@@ -365,9 +408,82 @@ function renderTable() {
       <td class="num">${r.price.toFixed(6)}</td>
       <td class="num ${deltaClass}">${deltaText}</td>
     `;
+    tr.addEventListener('click', () => showCropDetail(r.crop));
     tbody.appendChild(tr);
   });
 }
+
+let detailChart = null;
+
+async function showCropDetail(crop) {
+  document.getElementById('content').style.display = 'none';
+  document.getElementById('detail-view').style.display = 'block';
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+
+  const points = history
+    .filter(h => h.prices[crop] !== undefined)
+    .map(h => ({ date: h.date, price: h.prices[crop] }));
+
+  const prices = points.map(p => p.price);
+  const min = Math.min(...prices);
+  const max = Math.max(...prices);
+  const avg = prices.reduce((a, b) => a + b, 0) / prices.length;
+  const latest = prices[prices.length - 1];
+
+  document.getElementById('detail-name').textContent = crop;
+  document.getElementById('detail-price').textContent = latest.toFixed(6);
+  document.getElementById('detail-min').textContent = min.toFixed(6);
+  document.getElementById('detail-max').textContent = max.toFixed(6);
+  document.getElementById('detail-avg').textContent = avg.toFixed(6);
+
+  try {
+    await waitForChartJs(8000);
+    const ctx = document.getElementById('detailChart').getContext('2d');
+    if (detailChart) detailChart.destroy();
+    detailChart = new Chart(ctx, {
+      type: 'line',
+      data: {
+        labels: points.map(p => p.date),
+        datasets: [{
+          label: crop,
+          data: points.map(p => p.price),
+          borderColor: '#f0b429',
+          backgroundColor: 'rgba(240,180,41,0.08)',
+          borderWidth: 2,
+          pointRadius: 3,
+          tension: 0.25,
+          fill: true,
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: { display: false },
+          tooltip: {
+            backgroundColor: '#1a2013',
+            borderColor: '#2d3624',
+            borderWidth: 1,
+            titleColor: '#f2efe2',
+            bodyColor: '#f2efe2',
+          }
+        },
+        scales: {
+          x: { ticks: { color: '#767863', font: { size: 11 } }, grid: { color: '#2d3624' } },
+          y: { ticks: { color: '#767863', font: { size: 11 } }, grid: { color: '#2d3624' } }
+        }
+      }
+    });
+  } catch (e) {
+    document.querySelector('#detail-view .chart-wrap').innerHTML =
+      '<div style="text-align:center; padding:2rem; color:var(--text-secondary); font-size:13px;">Hindi ma-load yung chart library.</div>';
+  }
+}
+
+document.getElementById('detail-back').addEventListener('click', () => {
+  document.getElementById('detail-view').style.display = 'none';
+  document.getElementById('content').style.display = 'block';
+});
 
 loadData();
 </script>

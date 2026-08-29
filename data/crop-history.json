@@ -39,5 +39,46 @@
       "Lunara": 0.476,
       "Celestine": 0.146625
     }
+  },
+  {
+    "date": "2026-08-29",
+    "fetchedAt": "2026-08-29T04:28:42.211Z",
+    "prices": {
+      "Sunflower": 0.0002555,
+      "Potato": 0.00036667,
+      "Pumpkin": 0.001,
+      "Carrot": 0.001878,
+      "Cabbage": 0.0014506,
+      "Beetroot": 0.006429,
+      "Cauliflower": 0.00718,
+      "Parsnip": 0.01133462,
+      "Radish": 0.007848,
+      "Wheat": 0.0196,
+      "Kale": 0.0182,
+      "Barley": 0.01926,
+      "Apple": 0.018604,
+      "Blueberry": 0.016,
+      "Orange": 0.0138,
+      "Banana": 0.018968,
+      "Tomato": 0.004916,
+      "Lemon": 0.009992,
+      "Rice": 0.2483,
+      "Grape": 0.21186,
+      "Olive": 0.30909091,
+      "Soybean": 0.00191016,
+      "Eggplant": 0.0084598,
+      "Corn": 0.0117765,
+      "Rhubarb": 0.0006856,
+      "Zucchini": 0.00052545,
+      "Yam": 0.002425,
+      "Broccoli": 0.00345,
+      "Pepper": 0.005638,
+      "Onion": 0.012,
+      "Turnip": 0.010236,
+      "Artichoke": 0.00978,
+      "Duskberry": 0.8788,
+      "Lunara": 0.3732,
+      "Celestine": 0.1484
+    }
   }
 ]

@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>NFT Market — Sunflower Land Collectibles &amp; Wearables</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script>
+  (function loadChartJs(sources, i) {
+    if (i >= sources.length) { window.__chartLoadFailed = true; return; }
+    var s = document.createElement('script');
+    s.src = sources[i];
+    s.onload = function () { window.__chartReady = true; };
+    s.onerror = function () { loadChartJs(sources, i + 1); };
+    document.head.appendChild(s);
+  })([
+    'https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js',
+    'https://unpkg.com/chart.js@4.4.4/dist/chart.umd.min.js',
+    'https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.4/chart.umd.min.js'
+  ], 0);
+</script>
+<style>
+  :root {
+    --bg: #12160e;
+    --surface: #1a2013;
+    --surface-2: #212816;
+    --border: #2d3624;
+    --text: #f2efe2;
+    --text-secondary: #a9ab97;
+    --text-muted: #767863;
+    --accent: #f0b429;
+    --accent-dim: #8a6a1c;
+    --leaf: #7fb238;
+    --leaf-dim: #4a6521;
+    --up: #7fb238;
+    --down: #d9694f;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font-family: 'Inter', sans-serif; line-height: 1.5; }
+  .wrap { max-width: 960px; margin: 0 auto; padding: 2rem 1.25rem 4rem; }
+  header { margin-bottom: 1.5rem; }
+  .nav-link { font-family: 'JetBrains Mono', monospace; font-size: 12px; color: var(--leaf); text-decoration: none; }
+  .nav-link:hover { text-decoration: underline; }
+  .eyebrow { font-family: 'JetBrains Mono', monospace; font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--leaf); margin: 0.75rem 0 0.4rem; }
+  h1 { font-family: 'Fraunces', serif; font-weight: 600; font-size: clamp(28px, 6vw, 40px); margin: 0 0 0.4rem; color: var(--text); }
+  .sub { color: var(--text-secondary); font-size: 14px; margin: 0; }
+  .updated { font-family: 'JetBrains Mono', monospace; font-size: 12px; color: var(--text-muted); margin-top: 0.5rem; }
+
+  .card { background: var(--surface); border: 0.5px solid var(--border); border-radius: 12px; padding: 1.25rem; margin-bottom: 1.5rem; }
+  .card h2 { font-family: 'Fraunces', serif; font-weight: 500; font-size: 18px; margin: 0 0 1rem; }
+
+  #empty-state { text-align: center; padding: 3rem 1rem; color: var(--text-secondary); }
+
+  .controls { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 1rem; align-items: center; }
+  #search-input {
+    flex: 1; min-width: 160px;
+    background: var(--surface-2); border: 0.5px solid var(--border); border-radius: 20px;
+    padding: 8px 14px; color: var(--text); font-family: 'Inter', sans-serif; font-size: 14px;
+  }
+  #search-input:focus { outline: none; border-color: var(--accent); }
+  .filter-chip {
+    font-size: 13px; padding: 6px 12px; border-radius: 20px;
+    border: 0.5px solid var(--border); background: var(--surface-2); color: var(--text-secondary);
+    cursor: pointer; user-select: none; font-family: 'JetBrains Mono', monospace;
+  }
+  .filter-chip.active { background: var(--accent-dim); border-color: var(--accent); color: var(--accent); }
+
+  table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  thead th {
+    text-align: left; font-family: 'JetBrains Mono', monospace; font-size: 11px; text-transform: uppercase;
+    letter-spacing: 0.05em; color: var(--text-muted); font-weight: 500; padding: 6px 8px; border-bottom: 0.5px solid var(--border);
+  }
+  tbody td { padding: 8px; border-bottom: 0.5px solid var(--border); }
+  tbody tr:last-child td { border-bottom: none; }
+  tbody tr:hover { background: var(--surface-2); cursor: pointer; }
+  td.num, th.num { text-align: right; font-family: 'JetBrains Mono', monospace; }
+  .tag { font-size: 10px; font-family: 'JetBrains Mono', monospace; padding: 2px 7px; border-radius: 10px; text-transform: uppercase; }
+  .tag-collectibles { background: rgba(240,180,41,0.15); color: var(--accent); }
+  .tag-wearables { background: rgba(127,178,56,0.15); color: var(--leaf); }
+  .tag-unknown { background: var(--surface-2); color: var(--text-muted); }
+  .delta-up { color: var(--up); }
+  .delta-down { color: var(--down); }
+  .delta-flat { color: var(--text-muted); }
+  .hint { font-size: 12px; color: var(--text-muted); margin: -0.5rem 0 0.75rem; }
+  .empty-row td { text-align: center; color: var(--text-muted); padding: 1.5rem; }
+
+  .back-btn {
+    background: none; border: 0.5px solid var(--border); color: var(--text-secondary);
+    font-family: 'JetBrains Mono', monospace; font-size: 12px;
+    padding: 6px 12px; border-radius: 20px; cursor: pointer; margin-bottom: 1rem;
+  }
+  .back-btn:hover { border-color: var(--leaf); color: var(--leaf); }
+  .detail-header { display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 1rem; flex-wrap: wrap; gap: 8px; }
+  .detail-header h2 { margin: 0; }
+  .detail-price { font-family: 'JetBrains Mono', monospace; font-size: 22px; color: var(--accent); }
+
+  .stat-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; margin-bottom: 1.5rem; }
+  .stat-card { background: var(--surface-2); border-radius: 8px; padding: 0.75rem; text-align: center; }
+  .stat-label { font-family: 'JetBrains Mono', monospace; font-size: 10px; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-muted); margin-bottom: 4px; }
+  .stat-value { font-family: 'JetBrains Mono', monospace; font-size: 15px; color: var(--text); }
+
+  .chart-wrap { position: relative; height: 260px; }
+
+  footer { color: var(--text-muted); font-size: 12px; margin-top: 2rem; text-align: center; }
+  footer a { color: var(--leaf); }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <a class="nav-link" href="./index.html">&larr; Crop ledger (crops &amp; resources)</a>
+    <p class="eyebrow">Sunflower Land · Personal tracker</p>
+    <h1>NFT market</h1>
+    <p class="sub">Daily floor prices ng collectibles &amp; wearables, logged automatically mula sa sfl.world.</p>
+    <p class="updated" id="updated-line">Loading history…</p>
+  </header>
+
+  <div id="empty-state" class="card" style="display:none;">
+    <p><strong>Wala pang NFT data.</strong> Kapag tumakbo na yung daily GitHub Action, lalabas dito yung floor price history.</p>
+  </div>
+
+  <div id="content" style="display:none;">
+    <div class="card">
+      <h2>Floor prices</h2>
+      <p class="hint">I-click ang isang item para makita ang sarili nitong chart.</p>
+      <div class="controls">
+        <input id="search-input" type="text" placeholder="Maghanap ng item name…" />
+        <span class="filter-chip active" data-filter="all">All</span>
+        <span class="filter-chip" data-filter="collectibles">Collectibles</span>
+        <span class="filter-chip" data-filter="wearables">Wearables</span>
+      </div>
+      <table>
+        <thead>
+          <tr><th>Item</th><th>Type</th><th class="num">Floor</th><th class="num">1-day</th></tr>
+        </thead>
+        <tbody id="nft-table"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <div id="detail-view" class="card" style="display:none;">
+    <button class="back-btn" id="detail-back">&larr; Balik sa listahan</button>
+    <div class="detail-header">
+      <h2 id="detail-name">Item</h2>
+      <span class="detail-price" id="detail-price">0.000000</span>
+    </div>
+    <div class="stat-grid">
+      <div class="stat-card"><div class="stat-label">Lowest floor</div><div class="stat-value" id="detail-min">—</div></div>
+      <div class="stat-card"><div class="stat-label">Highest floor</div><div class="stat-value" id="detail-max">—</div></div>
+      <div class="stat-card"><div class="stat-label">Last sale price</div><div class="stat-value" id="detail-lastsale">—</div></div>
+      <div class="stat-card"><div class="stat-label">Supply</div><div class="stat-value" id="detail-supply">—</div></div>
+    </div>
+    <div class="chart-wrap"><canvas id="detailChart"></canvas></div>
+  </div>
+
+  <footer>
+    Data mula sa <a href="https://sfl.world" target="_blank" rel="noopener">sfl.world</a> NFT prices API. Hindi ito financial advice — para lang sa personal reference.
+  </footer>
+
+</div>
+
+<script>
+let history = [];
+let activeFilter = 'all';
+let searchTerm = '';
+
+function waitForChartJs(timeoutMs) {
+  return new Promise((resolve, reject) => {
+    const start = Date.now();
+    const check = () => {
+      if (window.Chart) return resolve();
+      if (window.__chartLoadFailed || Date.now() - start > timeoutMs) return reject(new Error('chartjs-load-failed'));
+      requestAnimationFrame(check);
+    };
+    check();
+  });
+}
+
+function dateNDaysAgo(dateStr, days) {
+  const d = new Date(dateStr + 'T00:00:00Z');
+  d.setUTCDate(d.getUTCDate() - days);
+  return d.toISOString().slice(0, 10);
+}
+
+function findEntryOnOrBefore(targetDate) {
+  let result = null;
+  for (const h of history) {
+    if (h.date <= targetDate) result = h;
+    else break;
+  }
+  return result;
+}
+
+async function loadData() {
+  try {
+    const res = await fetch('./data/nft-history.json', { cache: 'no-store' });
+    history = await res.json();
+  } catch (e) {
+    history = [];
+  }
+
+  if (!history || history.length === 0) {
+    document.getElementById('empty-state').style.display = 'block';
+    document.getElementById('updated-line').textContent = 'Wala pang naka-record na data.';
+    return;
+  }
+
+  document.getElementById('content').style.display = 'block';
+  const last = history[history.length - 1];
+  document.getElementById('updated-line').textContent =
+    `${history.length} araw ng naka-record na data · huling entry: ${last.date} · ${Object.keys(last.items).length} items`;
+
+  document.getElementById('search-input').addEventListener('input', (e) => {
+    searchTerm = e.target.value.toLowerCase();
+    renderTable();
+  });
+  document.querySelectorAll('.filter-chip').forEach(chip => {
+    chip.addEventListener('click', () => {
+      document.querySelectorAll('.filter-chip').forEach(c => c.classList.remove('active'));
+      chip.classList.add('active');
+      activeFilter = chip.dataset.filter;
+      renderTable();
+    });
+  });
+
+  renderTable();
+}
+
+function tagHtml(collection) {
+  const c = (collection || 'unknown').toLowerCase();
+  const cls = c === 'collectibles' ? 'tag-collectibles' : c === 'wearables' ? 'tag-wearables' : 'tag-unknown';
+  return `<span class="tag ${cls}">${collection}</span>`;
+}
+
+function renderTable() {
+  const tbody = document.getElementById('nft-table');
+  tbody.innerHTML = '';
+  const last = history[history.length - 1];
+
+  let names = Object.keys(last.items);
+
+  if (activeFilter !== 'all') {
+    names = names.filter(n => (last.items[n].collection || '').toLowerCase() === activeFilter);
+  }
+  if (searchTerm) {
+    names = names.filter(n => n.toLowerCase().includes(searchTerm));
+  }
+  names.sort((a, b) => a.localeCompare(b));
+
+  if (names.length === 0) {
+    tbody.innerHTML = '<tr class="empty-row"><td colspan="4">Walang nahanap na item.</td></tr>';
+    return;
+  }
+
+  names.forEach(name => {
+    const item = last.items[name];
+    const floor = item.floor;
+    const targetDate = dateNDaysAgo(last.date, 1);
+    const pastEntry = findEntryOnOrBefore(targetDate);
+    const pastFloor = pastEntry ? pastEntry.items[name]?.floor : null;
+    let deltaPct = null;
+    if (pastFloor !== null && pastFloor !== undefined && pastFloor !== 0 && floor !== null) {
+      deltaPct = ((floor - pastFloor) / pastFloor) * 100;
+    }
+    const deltaClass = deltaPct === null ? 'delta-flat' : deltaPct > 0 ? 'delta-up' : deltaPct < 0 ? 'delta-down' : 'delta-flat';
+    const deltaText = deltaPct === null ? '—' : `${deltaPct > 0 ? '▲' : deltaPct < 0 ? '▼' : '·'} ${Math.abs(deltaPct).toFixed(1)}%`;
+
+    const tr = document.createElement('tr');
+    tr.innerHTML = `
+      <td>${name}</td>
+      <td>${tagHtml(item.collection)}</td>
+      <td class="num">${floor !== null ? floor.toFixed(4) : '—'}</td>
+      <td class="num ${deltaClass}">${deltaText}</td>
+    `;
+    tr.addEventListener('click', () => showDetail(name));
+    tbody.appendChild(tr);
+  });
+}
+
+let detailChart = null;
+
+async function showDetail(name) {
+  document.getElementById('content').style.display = 'none';
+  document.getElementById('detail-view').style.display = 'block';
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+
+  const points = history
+    .filter(h => h.items[name] && h.items[name].floor !== null && h.items[name].floor !== undefined)
+    .map(h => ({ date: h.date, floor: h.items[name].floor }));
+
+  const last = history[history.length - 1].items[name];
+  const floors = points.map(p => p.floor);
+  const min = floors.length ? Math.min(...floors) : null;
+  const max = floors.length ? Math.max(...floors) : null;
+
+  document.getElementById('detail-name').textContent = name;
+  document.getElementById('detail-price').textContent = last.floor !== null ? last.floor.toFixed(4) : '—';
+  document.getElementById('detail-min').textContent = min !== null ? min.toFixed(4) : '—';
+  document.getElementById('detail-max').textContent = max !== null ? max.toFixed(4) : '—';
+  document.getElementById('detail-lastsale').textContent = last.lastSalePrice !== null && last.lastSalePrice !== undefined ? last.lastSalePrice.toFixed(4) : '—';
+  document.getElementById('detail-supply').textContent = last.supply !== null && last.supply !== undefined ? last.supply.toLocaleString() : '—';
+
+  try {
+    await waitForChartJs(8000);
+    const ctx = document.getElementById('detailChart').getContext('2d');
+    if (detailChart) detailChart.destroy();
+    detailChart = new Chart(ctx, {
+      type: 'line',
+      data: {
+        labels: points.map(p => p.date),
+        datasets: [{
+          label: name,
+          data: points.map(p => p.floor),
+          borderColor: '#f0b429',
+          backgroundColor: 'rgba(240,180,41,0.08)',
+          borderWidth: 2,
+          pointRadius: 3,
+          tension: 0.25,
+          fill: true,
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: { display: false },
+          tooltip: { backgroundColor: '#1a2013', borderColor: '#2d3624', borderWidth: 1, titleColor: '#f2efe2', bodyColor: '#f2efe2' }
+        },
+        scales: {
+          x: { ticks: { color: '#767863', font: { size: 11 } }, grid: { color: '#2d3624' } },
+          y: { ticks: { color: '#767863', font: { size: 11 } }, grid: { color: '#2d3624' } }
+        }
+      }
+    });
+  } catch (e) {
+    document.querySelector('#detail-view .chart-wrap').innerHTML =
+      '<div style="text-align:center; padding:2rem; color:var(--text-secondary); font-size:13px;">Hindi ma-load yung chart library.</div>';
+  }
+}
+
+document.getElementById('detail-back').addEventListener('click', () => {
+  document.getElementById('detail-view').style.display = 'none';
+  document.getElementById('content').style.display = 'block';
+});
+
+loadData();
+</script>
+</body>
+</html>

@@ -1,76 +1,35 @@
-// fetch-nfts.js
-// Kumukuha ng floor prices ng NFT collectibles at wearables mula sa sfl.world API
-// at ina-append sa data/nft-history.json. Tumatakbo kasabay ng crop fetch
-// (see .github/workflows/daily-fetch.yml)
+name: Daily Crop Price Fetch
 
-const fs = require("fs");
-const path = require("path");
+on:
+  schedule:
+    # 00:00 UTC = 8:00 AM Philippine time. Baguhin kung gusto mo ng ibang oras.
+    - cron: "0 0 * * *"
+  workflow_dispatch: {} # para ma-trigger manually sa Actions tab (for testing)
 
-const API_URL = "https://sfl.world/api/v1/nfts";
-const DATA_FILE = path.join(__dirname, "..", "data", "nft-history.json");
+permissions:
+  contents: write
 
-async function main() {
-  console.log(`[${new Date().toISOString()}] Fetching NFT prices from ${API_URL}...`);
+jobs:
+  fetch-prices:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
 
-  const res = await fetch(API_URL, {
-    headers: {
-      "User-Agent": "Mozilla/5.0 (compatible; SFL-Crop-Tracker/1.0; personal use)",
-      Accept: "application/json",
-    },
-  });
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
 
-  if (!res.ok) {
-    throw new Error(`API request failed: ${res.status} ${res.statusText}`);
-  }
+      - name: Fetch crop prices
+        run: node scripts/fetch-crops.js
 
-  const raw = await res.json();
-  // Puwedeng direktang array ang response, o naka-wrap sa "data"
-  const items = Array.isArray(raw) ? raw : Array.isArray(raw?.data) ? raw.data : null;
+      - name: Fetch NFT prices
+        run: node scripts/fetch-nfts.js
 
-  if (!items) {
-    throw new Error("Unexpected API response shape — hindi array ang laman.");
-  }
-
-  // I-map, key by item name — floor price, last sale price, at collection type
-  const snapshot = {};
-  for (const it of items) {
-    if (!it || !it.name) continue;
-    snapshot[it.name] = {
-      collection: it.collection || "unknown",
-      floor: it.floor ?? null,
-      lastSalePrice: it.lastSalePrice ?? null,
-      supply: it.supply ?? null,
-    };
-  }
-
-  const today = new Date().toISOString().slice(0, 10);
-
-  let history = [];
-  if (fs.existsSync(DATA_FILE)) {
-    const fileRaw = fs.readFileSync(DATA_FILE, "utf-8").trim();
-    if (fileRaw) history = JSON.parse(fileRaw);
-  }
-
-  const existingIndex = history.findIndex((entry) => entry.date === today);
-  const entry = { date: today, fetchedAt: new Date().toISOString(), items: snapshot };
-
-  if (existingIndex >= 0) {
-    history[existingIndex] = entry;
-    console.log(`Na-update ang NFT entry para sa ${today}.`);
-  } else {
-    history.push(entry);
-    console.log(`Bagong NFT entry idinagdag para sa ${today}.`);
-  }
-
-  history.sort((a, b) => (a.date > b.date ? 1 : -1));
-
-  fs.mkdirSync(path.dirname(DATA_FILE), { recursive: true });
-  fs.writeFileSync(DATA_FILE, JSON.stringify(history, null, 2) + "\n");
-
-  console.log(`Nakuha: ${Object.keys(snapshot).length} NFT items mula sa API.`);
-}
-
-main().catch((err) => {
-  console.error("❌ Error habang kumukuha ng NFT prices:", err.message);
-  process.exit(1);
-});
+      - name: Commit and push updated data
+        run: |
+          git config user.name "sfl-crop-tracker-bot"
+          git config user.email "actions@github.com"
+          git add data/crop-history.json data/nft-history.json
+          git diff --staged --quiet && echo "Walang pagbabago, skip commit." || (git commit -m "chore: daily price update $(date -u +'%Y-%m-%d')" && git push)

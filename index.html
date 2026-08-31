@@ -196,7 +196,7 @@
       <p class="hint">I-click ang isang crop para makita ang sarili nitong chart.</p>
       <table>
         <thead>
-          <tr><th>Crop</th><th class="num">Price</th><th class="num">1-day</th><th class="num">7-day</th><th class="num">30-day</th></tr>
+          <tr><th>Crop</th><th class="num">Price</th><th class="num">1d</th><th class="num">7d</th><th class="num">30d</th><th class="num">90d</th></tr>
         </thead>
         <tbody id="price-table"></tbody>
       </table>
@@ -424,6 +424,7 @@ function renderTable() {
       const d1 = computeDelta(crop, price, last.date, 1);
       const d7 = computeDelta(crop, price, last.date, 7);
       const d30 = computeDelta(crop, price, last.date, 30);
+      const d90 = computeDelta(crop, price, last.date, 90);
 
       const tr = document.createElement('tr');
       tr.innerHTML = `
@@ -432,6 +433,7 @@ function renderTable() {
         ${deltaCellHtml(d1)}
         ${deltaCellHtml(d7)}
         ${deltaCellHtml(d30)}
+        ${deltaCellHtml(d90)}
       `;
       tr.addEventListener('click', () => showCropDetail(crop));
       tbody.appendChild(tr);

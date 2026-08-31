@@ -134,7 +134,7 @@
       </div>
       <table>
         <thead>
-          <tr><th>Item</th><th>Type</th><th class="num">Floor</th><th class="num">1-day</th></tr>
+          <tr><th>Item</th><th>Type</th><th class="num">Floor</th><th class="num">1d</th><th class="num">7d</th><th class="num">30d</th><th class="num">90d</th></tr>
         </thead>
         <tbody id="nft-table"></tbody>
       </table>
@@ -229,6 +229,20 @@ async function loadData() {
   renderTable();
 }
 
+function computeDelta(name, floor, lastDate, daysAgo) {
+  const targetDate = dateNDaysAgo(lastDate, daysAgo);
+  const pastEntry = findEntryOnOrBefore(targetDate);
+  const pastFloor = pastEntry ? pastEntry.items[name]?.floor : null;
+  if (pastFloor === null || pastFloor === undefined || pastFloor === 0 || floor === null) return null;
+  return ((floor - pastFloor) / pastFloor) * 100;
+}
+
+function deltaCellHtml(pct) {
+  const cls = pct === null ? 'delta-flat' : pct > 0 ? 'delta-up' : pct < 0 ? 'delta-down' : 'delta-flat';
+  const text = pct === null ? '—' : `${pct > 0 ? '▲' : pct < 0 ? '▼' : '·'} ${Math.abs(pct).toFixed(1)}%`;
+  return `<td class="num ${cls}">${text}</td>`;
+}
+
 function tagHtml(collection) {
   const c = (collection || 'unknown').toLowerCase();
   const cls = c === 'collectibles' ? 'tag-collectibles' : c === 'wearables' ? 'tag-wearables' : 'tag-unknown';
@@ -258,22 +272,20 @@ function renderTable() {
   names.forEach(name => {
     const item = last.items[name];
     const floor = item.floor;
-    const targetDate = dateNDaysAgo(last.date, 1);
-    const pastEntry = findEntryOnOrBefore(targetDate);
-    const pastFloor = pastEntry ? pastEntry.items[name]?.floor : null;
-    let deltaPct = null;
-    if (pastFloor !== null && pastFloor !== undefined && pastFloor !== 0 && floor !== null) {
-      deltaPct = ((floor - pastFloor) / pastFloor) * 100;
-    }
-    const deltaClass = deltaPct === null ? 'delta-flat' : deltaPct > 0 ? 'delta-up' : deltaPct < 0 ? 'delta-down' : 'delta-flat';
-    const deltaText = deltaPct === null ? '—' : `${deltaPct > 0 ? '▲' : deltaPct < 0 ? '▼' : '·'} ${Math.abs(deltaPct).toFixed(1)}%`;
+    const d1 = computeDelta(name, floor, last.date, 1);
+    const d7 = computeDelta(name, floor, last.date, 7);
+    const d30 = computeDelta(name, floor, last.date, 30);
+    const d90 = computeDelta(name, floor, last.date, 90);
 
     const tr = document.createElement('tr');
     tr.innerHTML = `
       <td>${name}</td>
       <td>${tagHtml(item.collection)}</td>
       <td class="num">${floor !== null ? floor.toFixed(4) : '—'}</td>
-      <td class="num ${deltaClass}">${deltaText}</td>
+      ${deltaCellHtml(d1)}
+      ${deltaCellHtml(d7)}
+      ${deltaCellHtml(d30)}
+      ${deltaCellHtml(d90)}
     `;
     tr.addEventListener('click', () => showDetail(name));
     tbody.appendChild(tr);

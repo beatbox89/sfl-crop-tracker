@@ -158968,5 +158968,4547 @@
         "supply": 0
       }
     }
+  },
+  {
+    "date": "2026-10-05",
+    "fetchedAt": "2026-10-05T02:36:32.639Z",
+    "items": {
+      "Brilliant Bear": {
+        "collection": "collectibles",
+        "floor": 0.058,
+        "lastSalePrice": 0.056,
+        "supply": 55236
+      },
+      "Farmer Bear": {
+        "collection": "collectibles",
+        "floor": 0.08,
+        "lastSalePrice": 0.08,
+        "supply": 61773
+      },
+      "Stone Beetle": {
+        "collection": "collectibles",
+        "floor": 0.1,
+        "lastSalePrice": 0.1,
+        "supply": 0
+      },
+      "Chef Bear": {
+        "collection": "collectibles",
+        "floor": 0.119,
+        "lastSalePrice": 0.005,
+        "supply": 25365
+      },
+      "Construction Bear": {
+        "collection": "collectibles",
+        "floor": 0.1199,
+        "lastSalePrice": 0.0011,
+        "supply": 52559
+      },
+      "Badass Bear": {
+        "collection": "collectibles",
+        "floor": 0.12,
+        "lastSalePrice": 0.123,
+        "supply": 36736
+      },
+      "Venus Bumpkin Trap": {
+        "collection": "collectibles",
+        "floor": 0.1299,
+        "lastSalePrice": 0.11,
+        "supply": 22638
+      },
+      "Lunalist": {
+        "collection": "collectibles",
+        "floor": 0.139,
+        "lastSalePrice": 0.069,
+        "supply": 20146
+      },
+      "Crabs and Fish Rug": {
+        "collection": "collectibles",
+        "floor": 0.145,
+        "lastSalePrice": 0.13,
+        "supply": 11950
+      },
+      "Salt Lamp": {
+        "collection": "collectibles",
+        "floor": 0.147,
+        "lastSalePrice": 0.012,
+        "supply": 20511
+      },
+      "Classy Bear": {
+        "collection": "collectibles",
+        "floor": 0.17,
+        "lastSalePrice": 0.0445,
+        "supply": 9653
+      },
+      "Diving Helmet": {
+        "collection": "collectibles",
+        "floor": 0.18,
+        "lastSalePrice": 0.187,
+        "supply": 7318
+      },
+      "Ripped Salt Bag": {
+        "collection": "collectibles",
+        "floor": 0.1828,
+        "lastSalePrice": 0.0531,
+        "supply": 30058
+      },
+      "Pet Toys": {
+        "collection": "collectibles",
+        "floor": 0.1899,
+        "lastSalePrice": 0.0601,
+        "supply": 8039
+      },
+      "Pet Kennel": {
+        "collection": "collectibles",
+        "floor": 0.1899,
+        "lastSalePrice": 0.1899,
+        "supply": 12078
+      },
+      "Garbage Bin": {
+        "collection": "collectibles",
+        "floor": 0.199,
+        "lastSalePrice": 0.1788,
+        "supply": 8542
+      },
+      "Black Hole Flower": {
+        "collection": "collectibles",
+        "floor": 0.1999,
+        "lastSalePrice": 0.2,
+        "supply": 25045
+      },
+      "Mama Duck": {
+        "collection": "collectibles",
+        "floor": 0.209,
+        "lastSalePrice": 0.2049,
+        "supply": 19625
+      },
+      "Floor Mirror": {
+        "collection": "collectibles",
+        "floor": 0.2099,
+        "lastSalePrice": 0.0252,
+        "supply": 8913
+      },
+      "Long Rug": {
+        "collection": "collectibles",
+        "floor": 0.214,
+        "lastSalePrice": 0.0152,
+        "supply": 10860
+      },
+      "World Map Rug": {
+        "collection": "collectibles",
+        "floor": 0.218,
+        "lastSalePrice": 0.219,
+        "supply": 16272
+      },
+      "Wheat Whiskers": {
+        "collection": "collectibles",
+        "floor": 0.2222,
+        "lastSalePrice": 0.21,
+        "supply": 12951
+      },
+      "Squeaky Chicken": {
+        "collection": "collectibles",
+        "floor": 0.2299,
+        "lastSalePrice": 0.2,
+        "supply": 11300
+      },
+      "Fish Kite": {
+        "collection": "collectibles",
+        "floor": 0.235,
+        "lastSalePrice": 0.101,
+        "supply": 10445
+      },
+      "Winter Duckling": {
+        "collection": "collectibles",
+        "floor": 0.245,
+        "lastSalePrice": 0.001,
+        "supply": 22140
+      },
+      "Morty": {
+        "collection": "collectibles",
+        "floor": 0.245,
+        "lastSalePrice": 0.249,
+        "supply": 14762
+      },
+      "Autumn Duckling": {
+        "collection": "collectibles",
+        "floor": 0.255,
+        "lastSalePrice": 0.0104,
+        "supply": 22141
+      },
+      "Fish Bowl": {
+        "collection": "collectibles",
+        "floor": 0.2698,
+        "lastSalePrice": 0.105,
+        "supply": 4187
+      },
+      "Bumpkin Nutcracker": {
+        "collection": "collectibles",
+        "floor": 0.275,
+        "lastSalePrice": 0.2789,
+        "supply": 14387
+      },
+      "Silver Squire": {
+        "collection": "collectibles",
+        "floor": 0.3,
+        "lastSalePrice": 0.2395,
+        "supply": 6665
+      },
+      "Mini Floating Island": {
+        "collection": "collectibles",
+        "floor": 0.336,
+        "lastSalePrice": 0.0601,
+        "supply": 14492
+      },
+      "Christmas Stocking": {
+        "collection": "collectibles",
+        "floor": 0.34,
+        "lastSalePrice": 0.3201,
+        "supply": 9497
+      },
+      "Baby Panda": {
+        "collection": "collectibles",
+        "floor": 0.356,
+        "lastSalePrice": 0.15,
+        "supply": 12997
+      },
+      "Petnip Plant": {
+        "collection": "collectibles",
+        "floor": 0.3697,
+        "lastSalePrice": 0.3695,
+        "supply": 7977
+      },
+      "Wagon": {
+        "collection": "collectibles",
+        "floor": 0.38,
+        "lastSalePrice": 0.33,
+        "supply": 3151
+      },
+      "Snail King": {
+        "collection": "collectibles",
+        "floor": 0.3899,
+        "lastSalePrice": 0.1241,
+        "supply": 4263
+      },
+      "Summer Duckling": {
+        "collection": "collectibles",
+        "floor": 0.395,
+        "lastSalePrice": 0.0011,
+        "supply": 22140
+      },
+      "Cozy Fireplace": {
+        "collection": "collectibles",
+        "floor": 0.395,
+        "lastSalePrice": 0.35,
+        "supply": 8037
+      },
+      "Chamomile": {
+        "collection": "collectibles",
+        "floor": 0.3959,
+        "lastSalePrice": 0.11,
+        "supply": 11596
+      },
+      "Dark Eyed Kissing Fish": {
+        "collection": "collectibles",
+        "floor": 0.399,
+        "lastSalePrice": 0.3994,
+        "supply": 2428
+      },
+      "Pet Playground": {
+        "collection": "collectibles",
+        "floor": 0.3996,
+        "lastSalePrice": 0.399,
+        "supply": 3626
+      },
+      "Dawn Umbrella Seat": {
+        "collection": "collectibles",
+        "floor": 0.3999,
+        "lastSalePrice": 0.3999,
+        "supply": 4554
+      },
+      "Candles": {
+        "collection": "collectibles",
+        "floor": 0.4498,
+        "lastSalePrice": 0.43,
+        "supply": 4465
+      },
+      "Fish Drying Rack": {
+        "collection": "collectibles",
+        "floor": 0.468,
+        "lastSalePrice": 0.25,
+        "supply": 3792
+      },
+      "Wheelbarrow": {
+        "collection": "collectibles",
+        "floor": 0.4868,
+        "lastSalePrice": 0.3999,
+        "supply": 3434
+      },
+      "Jin": {
+        "collection": "collectibles",
+        "floor": 0.4956,
+        "lastSalePrice": 0.1815,
+        "supply": 40865
+      },
+      "Mog": {
+        "collection": "collectibles",
+        "floor": 0.4999,
+        "lastSalePrice": 0.49,
+        "supply": 4615
+      },
+      "Spring Duckling": {
+        "collection": "collectibles",
+        "floor": 0.55,
+        "lastSalePrice": 0.5,
+        "supply": 6968
+      },
+      "Mini Corn Maze": {
+        "collection": "collectibles",
+        "floor": 0.5897,
+        "lastSalePrice": 0.45,
+        "supply": 2721
+      },
+      "Fish Flags": {
+        "collection": "collectibles",
+        "floor": 0.5999,
+        "lastSalePrice": 0.2102,
+        "supply": 2827
+      },
+      "Balloon Rug": {
+        "collection": "collectibles",
+        "floor": 0.65,
+        "lastSalePrice": 0.5,
+        "supply": 6360
+      },
+      "T-Rex Skull": {
+        "collection": "collectibles",
+        "floor": 0.66,
+        "lastSalePrice": 0.4988,
+        "supply": 15421
+      },
+      "Paint Can": {
+        "collection": "collectibles",
+        "floor": 0.69,
+        "lastSalePrice": 0.201,
+        "supply": 1788
+      },
+      "Lifeguard Ring": {
+        "collection": "collectibles",
+        "floor": 0.69,
+        "lastSalePrice": 0.6899,
+        "supply": 2316
+      },
+      "Love Chicken": {
+        "collection": "collectibles",
+        "floor": 0.7497,
+        "lastSalePrice": 0.7496,
+        "supply": 2616
+      },
+      "Pirate Bear": {
+        "collection": "collectibles",
+        "floor": 0.7499,
+        "lastSalePrice": 0.5999,
+        "supply": 14925
+      },
+      "Vampire Bear": {
+        "collection": "collectibles",
+        "floor": 0.75,
+        "lastSalePrice": 0.7499,
+        "supply": 4487
+      },
+      "Cow Scratcher": {
+        "collection": "collectibles",
+        "floor": 0.7692,
+        "lastSalePrice": 0.7698,
+        "supply": 2095
+      },
+      "Giant Acorn": {
+        "collection": "collectibles",
+        "floor": 0.8,
+        "lastSalePrice": 0.8,
+        "supply": 1755
+      },
+      "Yellow Submarine Trophy": {
+        "collection": "collectibles",
+        "floor": 0.8,
+        "lastSalePrice": 0.8,
+        "supply": 2827
+      },
+      "Acorn House": {
+        "collection": "collectibles",
+        "floor": 0.85,
+        "lastSalePrice": 0.85,
+        "supply": 5472
+      },
+      "Sunflower Coin": {
+        "collection": "collectibles",
+        "floor": 0.87,
+        "lastSalePrice": 0.8669,
+        "supply": 17548
+      },
+      "Sunflower Bear": {
+        "collection": "collectibles",
+        "floor": 0.88,
+        "lastSalePrice": 0.2223,
+        "supply": 2116
+      },
+      "Golden Christmas Stocking": {
+        "collection": "collectibles",
+        "floor": 0.8998,
+        "lastSalePrice": 0.411,
+        "supply": 1746
+      },
+      "Anemone Flower": {
+        "collection": "collectibles",
+        "floor": 0.8999,
+        "lastSalePrice": 0.7301,
+        "supply": 26488
+      },
+      "Hideaway Herman": {
+        "collection": "collectibles",
+        "floor": 0.948,
+        "lastSalePrice": 0.7,
+        "supply": 1281
+      },
+      "Golden Bonsai": {
+        "collection": "collectibles",
+        "floor": 0.95,
+        "lastSalePrice": 0.995,
+        "supply": 16581
+      },
+      "Christmas Candle": {
+        "collection": "collectibles",
+        "floor": 0.988,
+        "lastSalePrice": 0.9899,
+        "supply": 1712
+      },
+      "Kite": {
+        "collection": "collectibles",
+        "floor": 0.9897,
+        "lastSalePrice": 0.4101,
+        "supply": 3516
+      },
+      "Eggplant Grill": {
+        "collection": "collectibles",
+        "floor": 0.995,
+        "lastSalePrice": 0.9949,
+        "supply": 1242
+      },
+      "Tiki Torch": {
+        "collection": "collectibles",
+        "floor": 0.9973,
+        "lastSalePrice": 0.14,
+        "supply": 4931
+      },
+      "Dawn Flower": {
+        "collection": "collectibles",
+        "floor": 0.9989,
+        "lastSalePrice": 0.9998,
+        "supply": 2082
+      },
+      "Spinning Wheel": {
+        "collection": "collectibles",
+        "floor": 1,
+        "lastSalePrice": 0.9999,
+        "supply": 2608
+      },
+      "Beach Ball": {
+        "collection": "collectibles",
+        "floor": 1,
+        "lastSalePrice": 1,
+        "supply": 1598
+      },
+      "Ugly Duckling": {
+        "collection": "collectibles",
+        "floor": 1,
+        "lastSalePrice": 1.3455,
+        "supply": 1548
+      },
+      "Rich Bear": {
+        "collection": "collectibles",
+        "floor": 1.1699,
+        "lastSalePrice": 0.5001,
+        "supply": 2461
+      },
+      "Dinosaur Bone": {
+        "collection": "collectibles",
+        "floor": 1.177,
+        "lastSalePrice": 0.201,
+        "supply": 3184
+      },
+      "Hapy Jar": {
+        "collection": "collectibles",
+        "floor": 1.19,
+        "lastSalePrice": 0.2703,
+        "supply": 1497
+      },
+      "Cactus King": {
+        "collection": "collectibles",
+        "floor": 1.21,
+        "lastSalePrice": 0.75,
+        "supply": 958
+      },
+      "Whale Bear": {
+        "collection": "collectibles",
+        "floor": 1.2299,
+        "lastSalePrice": 0.4,
+        "supply": 5920
+      },
+      "Igloo": {
+        "collection": "collectibles",
+        "floor": 1.2496,
+        "lastSalePrice": 0.4001,
+        "supply": 1559
+      },
+      "Lifeguard Bear": {
+        "collection": "collectibles",
+        "floor": 1.2899,
+        "lastSalePrice": 0.38,
+        "supply": 2901
+      },
+      "Green Holiday Ornament": {
+        "collection": "collectibles",
+        "floor": 1.2997,
+        "lastSalePrice": 0.4323,
+        "supply": 1154
+      },
+      "Imsety Jar": {
+        "collection": "collectibles",
+        "floor": 1.39,
+        "lastSalePrice": 0.52,
+        "supply": 781
+      },
+      "Scarab Beetle": {
+        "collection": "collectibles",
+        "floor": 1.4499,
+        "lastSalePrice": 0.3501,
+        "supply": 952
+      },
+      "Gaucho Rug": {
+        "collection": "collectibles",
+        "floor": 1.4989,
+        "lastSalePrice": 0.0334,
+        "supply": 1370
+      },
+      "Snorkel Bear": {
+        "collection": "collectibles",
+        "floor": 1.4999,
+        "lastSalePrice": 0.445,
+        "supply": 2926
+      },
+      "Easter Bear": {
+        "collection": "collectibles",
+        "floor": 1.5487,
+        "lastSalePrice": 0.15,
+        "supply": 2541
+      },
+      "Paper Reed": {
+        "collection": "collectibles",
+        "floor": 1.5996,
+        "lastSalePrice": 0.4201,
+        "supply": 881
+      },
+      "Qebehsenuef Jar": {
+        "collection": "collectibles",
+        "floor": 1.6499,
+        "lastSalePrice": 0.2002,
+        "supply": 774
+      },
+      "Salt Crystal Flower": {
+        "collection": "collectibles",
+        "floor": 1.7999,
+        "lastSalePrice": 1.4003,
+        "supply": 28488
+      },
+      "Red Holiday Ornament": {
+        "collection": "collectibles",
+        "floor": 1.8,
+        "lastSalePrice": 0.1,
+        "supply": 293
+      },
+      "Definitely not a Flower": {
+        "collection": "collectibles",
+        "floor": 1.8497,
+        "lastSalePrice": 0.7,
+        "supply": 646
+      },
+      "White Festive Fox": {
+        "collection": "collectibles",
+        "floor": 1.8999,
+        "lastSalePrice": 0.9101,
+        "supply": 1447
+      },
+      "Duamutef Jar": {
+        "collection": "collectibles",
+        "floor": 1.9,
+        "lastSalePrice": 0.41,
+        "supply": 896
+      },
+      "Orange Bunny Lantern": {
+        "collection": "collectibles",
+        "floor": 1.9,
+        "lastSalePrice": 0.6,
+        "supply": 623
+      },
+      "Turtle Bear": {
+        "collection": "collectibles",
+        "floor": 1.9,
+        "lastSalePrice": 1.8,
+        "supply": 3023
+      },
+      "Twister Rug": {
+        "collection": "collectibles",
+        "floor": 1.9499,
+        "lastSalePrice": 0.1509,
+        "supply": 1317
+      },
+      "Shroom Glow": {
+        "collection": "collectibles",
+        "floor": 1.9499,
+        "lastSalePrice": 1.9999,
+        "supply": 911
+      },
+      "Clock": {
+        "collection": "collectibles",
+        "floor": 1.95,
+        "lastSalePrice": 0.5334,
+        "supply": 1131
+      },
+      "Surfboard": {
+        "collection": "collectibles",
+        "floor": 1.9889,
+        "lastSalePrice": 0.5111,
+        "supply": 955
+      },
+      "Mermaid Cow": {
+        "collection": "collectibles",
+        "floor": 1.9991,
+        "lastSalePrice": 1,
+        "supply": 706
+      },
+      "Rainbow": {
+        "collection": "collectibles",
+        "floor": 1.9997,
+        "lastSalePrice": 0.6003,
+        "supply": 1364
+      },
+      "Flamingo": {
+        "collection": "collectibles",
+        "floor": 2,
+        "lastSalePrice": 1,
+        "supply": 1773
+      },
+      "Easter Bush": {
+        "collection": "collectibles",
+        "floor": 2,
+        "lastSalePrice": 1,
+        "supply": 3274
+      },
+      "Potato Statue": {
+        "collection": "collectibles",
+        "floor": 2,
+        "lastSalePrice": 2,
+        "supply": 5105
+      },
+      "Farmer Bath": {
+        "collection": "collectibles",
+        "floor": 2,
+        "lastSalePrice": 2,
+        "supply": 3112
+      },
+      "Heart Balloons": {
+        "collection": "collectibles",
+        "floor": 2,
+        "lastSalePrice": 2,
+        "supply": 4300
+      },
+      "Goblet": {
+        "collection": "collectibles",
+        "floor": 2,
+        "lastSalePrice": 2,
+        "supply": 529
+      },
+      "Festive Toy Train": {
+        "collection": "collectibles",
+        "floor": 2,
+        "lastSalePrice": 3.97,
+        "supply": 510
+      },
+      "Snowman": {
+        "collection": "collectibles",
+        "floor": 2.1988,
+        "lastSalePrice": 0.11,
+        "supply": 1002
+      },
+      "Meteorite": {
+        "collection": "collectibles",
+        "floor": 2.39,
+        "lastSalePrice": 2.3899,
+        "supply": 1146
+      },
+      "Christmas Rug": {
+        "collection": "collectibles",
+        "floor": 2.4299,
+        "lastSalePrice": 0.4003,
+        "supply": 1723
+      },
+      "Enchanted Rose": {
+        "collection": "collectibles",
+        "floor": 2.55,
+        "lastSalePrice": 0.9,
+        "supply": 1045
+      },
+      "Sundial": {
+        "collection": "collectibles",
+        "floor": 2.67,
+        "lastSalePrice": 1.25,
+        "supply": 670
+      },
+      "Cluckapult": {
+        "collection": "collectibles",
+        "floor": 2.7998,
+        "lastSalePrice": 1.0022,
+        "supply": 1331
+      },
+      "Cup of Chocolate": {
+        "collection": "collectibles",
+        "floor": 2.7999,
+        "lastSalePrice": 1.1205,
+        "supply": 358
+      },
+      "Crow Rock": {
+        "collection": "collectibles",
+        "floor": 2.8,
+        "lastSalePrice": 1.11,
+        "supply": 2115
+      },
+      "Easter Basket": {
+        "collection": "collectibles",
+        "floor": 2.8999,
+        "lastSalePrice": 2,
+        "supply": 330
+      },
+      "Bear Trap": {
+        "collection": "collectibles",
+        "floor": 2.9998,
+        "lastSalePrice": 1,
+        "supply": 619
+      },
+      "Lake Rug": {
+        "collection": "collectibles",
+        "floor": 2.9999,
+        "lastSalePrice": 0.6001,
+        "supply": 1568
+      },
+      "Snake in Jar": {
+        "collection": "collectibles",
+        "floor": 2.9999,
+        "lastSalePrice": 2.1001,
+        "supply": 393
+      },
+      "War Tombstone": {
+        "collection": "collectibles",
+        "floor": 3,
+        "lastSalePrice": 1,
+        "supply": 2589
+      },
+      "Sand Golem": {
+        "collection": "collectibles",
+        "floor": 3,
+        "lastSalePrice": 1.33,
+        "supply": 458
+      },
+      "Christmas Snow Globe": {
+        "collection": "collectibles",
+        "floor": 3,
+        "lastSalePrice": 2,
+        "supply": 1538
+      },
+      "Paw Prints Rug": {
+        "collection": "collectibles",
+        "floor": 3,
+        "lastSalePrice": 2,
+        "supply": 323
+      },
+      "Frozen Meat": {
+        "collection": "collectibles",
+        "floor": 3.1979,
+        "lastSalePrice": 1,
+        "supply": 1893
+      },
+      "Community Egg": {
+        "collection": "collectibles",
+        "floor": 3.2998,
+        "lastSalePrice": 1.0001,
+        "supply": 1099
+      },
+      "Trainee Target": {
+        "collection": "collectibles",
+        "floor": 3.34,
+        "lastSalePrice": 0.65,
+        "supply": 905
+      },
+      "Crystal Shrimp": {
+        "collection": "collectibles",
+        "floor": 3.46,
+        "lastSalePrice": 2.11,
+        "supply": 705
+      },
+      "Flower Cart": {
+        "collection": "collectibles",
+        "floor": 3.49,
+        "lastSalePrice": 1,
+        "supply": 1220
+      },
+      "Rookie Rook": {
+        "collection": "collectibles",
+        "floor": 3.4978,
+        "lastSalePrice": 1.1001,
+        "supply": 583
+      },
+      "Heart Air Balloon": {
+        "collection": "collectibles",
+        "floor": 3.4999,
+        "lastSalePrice": 3,
+        "supply": 795
+      },
+      "Wicker Man": {
+        "collection": "collectibles",
+        "floor": 3.5,
+        "lastSalePrice": 5.95,
+        "supply": 1935
+      },
+      "Sleepy Rug": {
+        "collection": "collectibles",
+        "floor": 3.5599,
+        "lastSalePrice": 0.8001,
+        "supply": 1120
+      },
+      "Haunted Tomb": {
+        "collection": "collectibles",
+        "floor": 3.796,
+        "lastSalePrice": 3.7899,
+        "supply": 590
+      },
+      "Eggplant Bear": {
+        "collection": "collectibles",
+        "floor": 3.7999,
+        "lastSalePrice": 1.0001,
+        "supply": 1291
+      },
+      "Anubis Jackal": {
+        "collection": "collectibles",
+        "floor": 3.7999,
+        "lastSalePrice": 3.5,
+        "supply": 535
+      },
+      "Sunrise Bloom Rug": {
+        "collection": "collectibles",
+        "floor": 3.85,
+        "lastSalePrice": 3.62,
+        "supply": 488
+      },
+      "Clay Tablet": {
+        "collection": "collectibles",
+        "floor": 3.9996,
+        "lastSalePrice": 1,
+        "supply": 1519
+      },
+      "Crop Circle": {
+        "collection": "collectibles",
+        "floor": 3.9998,
+        "lastSalePrice": 0.35,
+        "supply": 480
+      },
+      "Generosity Flag": {
+        "collection": "collectibles",
+        "floor": 3.9999,
+        "lastSalePrice": 1,
+        "supply": 500
+      },
+      "Holiday Decorative Totem": {
+        "collection": "collectibles",
+        "floor": 3.9999,
+        "lastSalePrice": 1,
+        "supply": 322
+      },
+      "Christmas Bear": {
+        "collection": "collectibles",
+        "floor": 3.9999,
+        "lastSalePrice": 3.8,
+        "supply": 1777
+      },
+      "Golden Garrison": {
+        "collection": "collectibles",
+        "floor": 3.9999,
+        "lastSalePrice": 3.9,
+        "supply": 687
+      },
+      "Splendor Flag": {
+        "collection": "collectibles",
+        "floor": 4,
+        "lastSalePrice": 1,
+        "supply": 510
+      },
+      "Fountain": {
+        "collection": "collectibles",
+        "floor": 4,
+        "lastSalePrice": 3,
+        "supply": 10001
+      },
+      "Fisherman's Boat": {
+        "collection": "collectibles",
+        "floor": 4,
+        "lastSalePrice": 3,
+        "supply": 300
+      },
+      "Guillotine": {
+        "collection": "collectibles",
+        "floor": 4,
+        "lastSalePrice": 3.9,
+        "supply": 331
+      },
+      "Sarcophagus": {
+        "collection": "collectibles",
+        "floor": 4,
+        "lastSalePrice": 3.95,
+        "supply": 465
+      },
+      "Giant Carrot": {
+        "collection": "collectibles",
+        "floor": 4,
+        "lastSalePrice": 5,
+        "supply": 499
+      },
+      "Pet Bowls": {
+        "collection": "collectibles",
+        "floor": 4.1797,
+        "lastSalePrice": 4.1797,
+        "supply": 13190
+      },
+      "Astronaut Cow": {
+        "collection": "collectibles",
+        "floor": 4.2,
+        "lastSalePrice": 3.4999,
+        "supply": 623
+      },
+      "Gift Turtle": {
+        "collection": "collectibles",
+        "floor": 4.399,
+        "lastSalePrice": 1.6601,
+        "supply": 501
+      },
+      "Rat King": {
+        "collection": "collectibles",
+        "floor": 4.4,
+        "lastSalePrice": 0.33,
+        "supply": 572
+      },
+      "Silver Sentinel": {
+        "collection": "collectibles",
+        "floor": 4.4999,
+        "lastSalePrice": 3.9,
+        "supply": 584
+      },
+      "Mimic Egg": {
+        "collection": "collectibles",
+        "floor": 4.4999,
+        "lastSalePrice": 4,
+        "supply": 351
+      },
+      "Carrot House": {
+        "collection": "collectibles",
+        "floor": 4.5,
+        "lastSalePrice": 4,
+        "supply": 210
+      },
+      "Haunted Stump": {
+        "collection": "collectibles",
+        "floor": 4.7,
+        "lastSalePrice": 1.5,
+        "supply": 699
+      },
+      "Giant Dawn Mushroom": {
+        "collection": "collectibles",
+        "floor": 4.8,
+        "lastSalePrice": 3,
+        "supply": 1367
+      },
+      "Observer": {
+        "collection": "collectibles",
+        "floor": 4.8999,
+        "lastSalePrice": 4.8996,
+        "supply": 524
+      },
+      "Baozi": {
+        "collection": "collectibles",
+        "floor": 4.9979,
+        "lastSalePrice": 3.1,
+        "supply": 1154
+      },
+      "Bullseye Board": {
+        "collection": "collectibles",
+        "floor": 4.999,
+        "lastSalePrice": 4.989,
+        "supply": 296
+      },
+      "Ho Ho oh oh…": {
+        "collection": "collectibles",
+        "floor": 4.9999,
+        "lastSalePrice": 1.22,
+        "supply": 239
+      },
+      "Collectible Bear": {
+        "collection": "collectibles",
+        "floor": 5,
+        "lastSalePrice": 2,
+        "supply": 750
+      },
+      "Chess Rug": {
+        "collection": "collectibles",
+        "floor": 5,
+        "lastSalePrice": 2,
+        "supply": 1255
+      },
+      "Pet Bed": {
+        "collection": "collectibles",
+        "floor": 5,
+        "lastSalePrice": 2,
+        "supply": 300
+      },
+      "Rocket Statue": {
+        "collection": "collectibles",
+        "floor": 5,
+        "lastSalePrice": 2,
+        "supply": 250
+      },
+      "Speckled Kissing Fish": {
+        "collection": "collectibles",
+        "floor": 5,
+        "lastSalePrice": 2,
+        "supply": 300
+      },
+      "Fake Mouse": {
+        "collection": "collectibles",
+        "floor": 5,
+        "lastSalePrice": 2.2,
+        "supply": 189
+      },
+      "Anchor": {
+        "collection": "collectibles",
+        "floor": 5,
+        "lastSalePrice": 4,
+        "supply": 799
+      },
+      "Witch's Cauldron": {
+        "collection": "collectibles",
+        "floor": 5,
+        "lastSalePrice": 4.9999,
+        "supply": 329
+      },
+      "Penguin Surprise": {
+        "collection": "collectibles",
+        "floor": 5,
+        "lastSalePrice": 4.9999,
+        "supply": 384
+      },
+      "Mechanical Bull": {
+        "collection": "collectibles",
+        "floor": 5.32,
+        "lastSalePrice": 2,
+        "supply": 555
+      },
+      "Pet Tree": {
+        "collection": "collectibles",
+        "floor": 5.8,
+        "lastSalePrice": 2,
+        "supply": 176
+      },
+      "Flower Rug": {
+        "collection": "collectibles",
+        "floor": 5.99,
+        "lastSalePrice": 5.9898,
+        "supply": 1038
+      },
+      "Earn Alliance Banner": {
+        "collection": "collectibles",
+        "floor": 6,
+        "lastSalePrice": 2,
+        "supply": 2505
+      },
+      "Ant Queen": {
+        "collection": "collectibles",
+        "floor": 6,
+        "lastSalePrice": 4,
+        "supply": 350
+      },
+      "War Skull": {
+        "collection": "collectibles",
+        "floor": 6,
+        "lastSalePrice": 5,
+        "supply": 3356
+      },
+      "Giant Isopod": {
+        "collection": "collectibles",
+        "floor": 6.4999,
+        "lastSalePrice": 2.5,
+        "supply": 584
+      },
+      "Hammock": {
+        "collection": "collectibles",
+        "floor": 6.7,
+        "lastSalePrice": 6.69,
+        "supply": 404
+      },
+      "Devotion Flag": {
+        "collection": "collectibles",
+        "floor": 6.9399,
+        "lastSalePrice": 0.1,
+        "supply": 500
+      },
+      "Rainbow Well": {
+        "collection": "collectibles",
+        "floor": 7,
+        "lastSalePrice": 2.01,
+        "supply": 193
+      },
+      "Beta Bear": {
+        "collection": "collectibles",
+        "floor": 7,
+        "lastSalePrice": 4,
+        "supply": 786
+      },
+      "Kraken Head": {
+        "collection": "collectibles",
+        "floor": 7,
+        "lastSalePrice": 5,
+        "supply": 399
+      },
+      "Pufferfish": {
+        "collection": "collectibles",
+        "floor": 7,
+        "lastSalePrice": 5,
+        "supply": 180
+      },
+      "Goblin Crown": {
+        "collection": "collectibles",
+        "floor": 7,
+        "lastSalePrice": 6,
+        "supply": 5003
+      },
+      "Homeless Tent": {
+        "collection": "collectibles",
+        "floor": 7,
+        "lastSalePrice": 7,
+        "supply": 1006
+      },
+      "Floating Toy": {
+        "collection": "collectibles",
+        "floor": 7.3799,
+        "lastSalePrice": 4.6,
+        "supply": 284
+      },
+      "Halloween Scarecrow": {
+        "collection": "collectibles",
+        "floor": 7.59,
+        "lastSalePrice": 7.5899,
+        "supply": 503
+      },
+      "Sapo Travessuras": {
+        "collection": "collectibles",
+        "floor": 7.95,
+        "lastSalePrice": 7.7999,
+        "supply": 829
+      },
+      "Blue Slime Balloon": {
+        "collection": "collectibles",
+        "floor": 8,
+        "lastSalePrice": 2,
+        "supply": 187
+      },
+      "Devil Bear": {
+        "collection": "collectibles",
+        "floor": 8,
+        "lastSalePrice": 3.5,
+        "supply": 519
+      },
+      "Green Field Rug": {
+        "collection": "collectibles",
+        "floor": 8,
+        "lastSalePrice": 4,
+        "supply": 263
+      },
+      "Baby Sheep": {
+        "collection": "collectibles",
+        "floor": 8,
+        "lastSalePrice": 6,
+        "supply": 355
+      },
+      "Flower-Scribed Statue": {
+        "collection": "collectibles",
+        "floor": 8.5,
+        "lastSalePrice": 9.999,
+        "supply": 316
+      },
+      "Jelly Lamp": {
+        "collection": "collectibles",
+        "floor": 8.89,
+        "lastSalePrice": 8.88,
+        "supply": 581
+      },
+      "Valentine Bear": {
+        "collection": "collectibles",
+        "floor": 8.9999,
+        "lastSalePrice": 7.1,
+        "supply": 664
+      },
+      "Baobab Tree": {
+        "collection": "collectibles",
+        "floor": 8.9999,
+        "lastSalePrice": 12.3,
+        "supply": 274
+      },
+      "Lily Egg": {
+        "collection": "collectibles",
+        "floor": 9,
+        "lastSalePrice": 3,
+        "supply": 215
+      },
+      "Cyborg Bear": {
+        "collection": "collectibles",
+        "floor": 9,
+        "lastSalePrice": 5,
+        "supply": 763
+      },
+      "Benevolence Flag": {
+        "collection": "collectibles",
+        "floor": 9.5,
+        "lastSalePrice": 1.5,
+        "supply": 500
+      },
+      "White Bunny Lantern": {
+        "collection": "collectibles",
+        "floor": 9.8,
+        "lastSalePrice": 5,
+        "supply": 83
+      },
+      "Oasis": {
+        "collection": "collectibles",
+        "floor": 10,
+        "lastSalePrice": 6,
+        "supply": 350
+      },
+      "Cerberus": {
+        "collection": "collectibles",
+        "floor": 10,
+        "lastSalePrice": 7,
+        "supply": 534
+      },
+      "Sky Pillar": {
+        "collection": "collectibles",
+        "floor": 10,
+        "lastSalePrice": 11,
+        "supply": 566
+      },
+      "Tea Rug": {
+        "collection": "collectibles",
+        "floor": 11,
+        "lastSalePrice": 5,
+        "supply": 194
+      },
+      "Karkinos": {
+        "collection": "collectibles",
+        "floor": 11,
+        "lastSalePrice": 10,
+        "supply": 4280
+      },
+      "Fat Crab": {
+        "collection": "collectibles",
+        "floor": 12,
+        "lastSalePrice": 2,
+        "supply": 180
+      },
+      "Shifty Sheldon": {
+        "collection": "collectibles",
+        "floor": 12,
+        "lastSalePrice": 3,
+        "supply": 249
+      },
+      "Raveyard": {
+        "collection": "collectibles",
+        "floor": 12,
+        "lastSalePrice": 9.9999,
+        "supply": 161
+      },
+      "Palm Tree": {
+        "collection": "collectibles",
+        "floor": 12,
+        "lastSalePrice": 10,
+        "supply": 500
+      },
+      "Vampire Coffin": {
+        "collection": "collectibles",
+        "floor": 12,
+        "lastSalePrice": 11.5,
+        "supply": 143
+      },
+      "Santa Penguin": {
+        "collection": "collectibles",
+        "floor": 12.9999,
+        "lastSalePrice": 12,
+        "supply": 510
+      },
+      "Cobalt": {
+        "collection": "collectibles",
+        "floor": 13.4989,
+        "lastSalePrice": 7.01,
+        "supply": 1384
+      },
+      "Mysterious Head": {
+        "collection": "collectibles",
+        "floor": 14,
+        "lastSalePrice": 5,
+        "supply": 550
+      },
+      "Blossom Royale": {
+        "collection": "collectibles",
+        "floor": 14,
+        "lastSalePrice": 6,
+        "supply": 149
+      },
+      "Angel Bear": {
+        "collection": "collectibles",
+        "floor": 14.498,
+        "lastSalePrice": 4.5,
+        "supply": 369
+      },
+      "Speed Chicken": {
+        "collection": "collectibles",
+        "floor": 14.889,
+        "lastSalePrice": 14.78,
+        "supply": 16956
+      },
+      "Penguin Pool": {
+        "collection": "collectibles",
+        "floor": 14.9,
+        "lastSalePrice": 14,
+        "supply": 264
+      },
+      "Clementine": {
+        "collection": "collectibles",
+        "floor": 14.9489,
+        "lastSalePrice": 7.66,
+        "supply": 1299
+      },
+      "Pony Toy": {
+        "collection": "collectibles",
+        "floor": 14.9999,
+        "lastSalePrice": 12,
+        "supply": 102
+      },
+      "Nyon Statue": {
+        "collection": "collectibles",
+        "floor": 15,
+        "lastSalePrice": 6,
+        "supply": 1000
+      },
+      "Rainbow Flower": {
+        "collection": "collectibles",
+        "floor": 15,
+        "lastSalePrice": 12,
+        "supply": 168
+      },
+      "Sapo Docuras": {
+        "collection": "collectibles",
+        "floor": 15,
+        "lastSalePrice": 15.8,
+        "supply": 805
+      },
+      "Flamingo Chicken": {
+        "collection": "collectibles",
+        "floor": 15.3997,
+        "lastSalePrice": 15.4694,
+        "supply": 3659
+      },
+      "Victoria Sisters": {
+        "collection": "collectibles",
+        "floor": 15.4995,
+        "lastSalePrice": 15,
+        "supply": 9030
+      },
+      "Red Slime Balloon": {
+        "collection": "collectibles",
+        "floor": 15.99,
+        "lastSalePrice": 5,
+        "supply": 76
+      },
+      "Capybara": {
+        "collection": "collectibles",
+        "floor": 15.9998,
+        "lastSalePrice": 8,
+        "supply": 462
+      },
+      "Sunflower Statue": {
+        "collection": "collectibles",
+        "floor": 16,
+        "lastSalePrice": 6,
+        "supply": 1019
+      },
+      "Winter Alpaca": {
+        "collection": "collectibles",
+        "floor": 17,
+        "lastSalePrice": 5,
+        "supply": 210
+      },
+      "Easter Bunny": {
+        "collection": "collectibles",
+        "floor": 17,
+        "lastSalePrice": 14,
+        "supply": 45998
+      },
+      "UFO": {
+        "collection": "collectibles",
+        "floor": 17,
+        "lastSalePrice": 16,
+        "supply": 250
+      },
+      "Purple Trail": {
+        "collection": "collectibles",
+        "floor": 19,
+        "lastSalePrice": 17,
+        "supply": 6752
+      },
+      "Fancy Rug": {
+        "collection": "collectibles",
+        "floor": 21,
+        "lastSalePrice": 6.1,
+        "supply": 175
+      },
+      "Regular Pawn": {
+        "collection": "collectibles",
+        "floor": 22,
+        "lastSalePrice": 10,
+        "supply": 265
+      },
+      "Bumpkin Rug": {
+        "collection": "collectibles",
+        "floor": 22,
+        "lastSalePrice": 15,
+        "supply": 100
+      },
+      "Sunlit Citadel": {
+        "collection": "collectibles",
+        "floor": 22.8999,
+        "lastSalePrice": 13,
+        "supply": 160
+      },
+      "White Tunnel Bunny": {
+        "collection": "collectibles",
+        "floor": 23,
+        "lastSalePrice": 23,
+        "supply": 156
+      },
+      "Orange Tunnel Bunny": {
+        "collection": "collectibles",
+        "floor": 23,
+        "lastSalePrice": 23.979,
+        "supply": 538
+      },
+      "Beach Umbrella": {
+        "collection": "collectibles",
+        "floor": 24,
+        "lastSalePrice": 19,
+        "supply": 123
+      },
+      "Teeth Toy": {
+        "collection": "collectibles",
+        "floor": 24,
+        "lastSalePrice": 25,
+        "supply": 93
+      },
+      "Spooky Tree": {
+        "collection": "collectibles",
+        "floor": 24.5,
+        "lastSalePrice": 7,
+        "supply": 171
+      },
+      "Rich Chicken": {
+        "collection": "collectibles",
+        "floor": 25,
+        "lastSalePrice": 23.1,
+        "supply": 16865
+      },
+      "Pablo The Bunny": {
+        "collection": "collectibles",
+        "floor": 25,
+        "lastSalePrice": 24,
+        "supply": 4455
+      },
+      "Sleepy Chicken": {
+        "collection": "collectibles",
+        "floor": 27.348,
+        "lastSalePrice": 24.9,
+        "supply": 2962
+      },
+      "Fat Chicken": {
+        "collection": "collectibles",
+        "floor": 27.71,
+        "lastSalePrice": 27,
+        "supply": 17964
+      },
+      "Black Sheep": {
+        "collection": "collectibles",
+        "floor": 28,
+        "lastSalePrice": 5,
+        "supply": 110
+      },
+      "Pharaoh Chicken": {
+        "collection": "collectibles",
+        "floor": 28,
+        "lastSalePrice": 27,
+        "supply": 1309
+      },
+      "Giant Gold Bone": {
+        "collection": "collectibles",
+        "floor": 29.9999,
+        "lastSalePrice": 24.1051,
+        "supply": 1846
+      },
+      "Sunflower Tombstone": {
+        "collection": "collectibles",
+        "floor": 30,
+        "lastSalePrice": 10,
+        "supply": 1148
+      },
+      "Haunted House": {
+        "collection": "collectibles",
+        "floor": 30,
+        "lastSalePrice": 24,
+        "supply": 311
+      },
+      "Marty": {
+        "collection": "collectibles",
+        "floor": 31,
+        "lastSalePrice": 15.0001,
+        "supply": 101
+      },
+      "Janitor Chicken": {
+        "collection": "collectibles",
+        "floor": 31.9898,
+        "lastSalePrice": 28,
+        "supply": 2722
+      },
+      "Dino Egg Trophy": {
+        "collection": "collectibles",
+        "floor": 32,
+        "lastSalePrice": 32,
+        "supply": 5428
+      },
+      "Hungry Hare": {
+        "collection": "collectibles",
+        "floor": 32.25,
+        "lastSalePrice": 23,
+        "supply": 546
+      },
+      "Chicory": {
+        "collection": "collectibles",
+        "floor": 32.7775,
+        "lastSalePrice": 30.11,
+        "supply": 7688
+      },
+      "Reelmaster's Chair": {
+        "collection": "collectibles",
+        "floor": 32.9998,
+        "lastSalePrice": 32.9997,
+        "supply": 2480
+      },
+      "Paint Buckets": {
+        "collection": "collectibles",
+        "floor": 33,
+        "lastSalePrice": 9.9999,
+        "supply": 206
+      },
+      "Fake Treasure": {
+        "collection": "collectibles",
+        "floor": 33,
+        "lastSalePrice": 20.0001,
+        "supply": 53
+      },
+      "Obie": {
+        "collection": "collectibles",
+        "floor": 33,
+        "lastSalePrice": 32,
+        "supply": 2600
+      },
+      "Desert Rose": {
+        "collection": "collectibles",
+        "floor": 33.397,
+        "lastSalePrice": 31.0001,
+        "supply": 7110
+      },
+      "Spa Sheep": {
+        "collection": "collectibles",
+        "floor": 34.98,
+        "lastSalePrice": 27.1101,
+        "supply": 552
+      },
+      "Rice Panda": {
+        "collection": "collectibles",
+        "floor": 36.49,
+        "lastSalePrice": 36.49,
+        "supply": 2115
+      },
+      "Squid Chicken": {
+        "collection": "collectibles",
+        "floor": 36.4999,
+        "lastSalePrice": 32.0001,
+        "supply": 3407
+      },
+      "Genie Bear": {
+        "collection": "collectibles",
+        "floor": 37,
+        "lastSalePrice": 10.5101,
+        "supply": 217
+      },
+      "Potent Potato": {
+        "collection": "collectibles",
+        "floor": 37.8999,
+        "lastSalePrice": 31.002,
+        "supply": 465
+      },
+      "Oaken": {
+        "collection": "collectibles",
+        "floor": 39,
+        "lastSalePrice": 36,
+        "supply": 1948
+      },
+      "Nana": {
+        "collection": "collectibles",
+        "floor": 40,
+        "lastSalePrice": 35,
+        "supply": 1956
+      },
+      "Radical Radish": {
+        "collection": "collectibles",
+        "floor": 42.25,
+        "lastSalePrice": 40.99,
+        "supply": 437
+      },
+      "Banana Chicken": {
+        "collection": "collectibles",
+        "floor": 42.39,
+        "lastSalePrice": 42.39,
+        "supply": 1809
+      },
+      "Lemon Frog": {
+        "collection": "collectibles",
+        "floor": 44,
+        "lastSalePrice": 44,
+        "supply": 2465
+      },
+      "Alien Chicken": {
+        "collection": "collectibles",
+        "floor": 44.999,
+        "lastSalePrice": 44,
+        "supply": 1188
+      },
+      "Blossom Tree": {
+        "collection": "collectibles",
+        "floor": 47,
+        "lastSalePrice": 25,
+        "supply": 250
+      },
+      "Rubber Ducky": {
+        "collection": "collectibles",
+        "floor": 48,
+        "lastSalePrice": 8,
+        "supply": 100
+      },
+      "Knight Chicken": {
+        "collection": "collectibles",
+        "floor": 48.997,
+        "lastSalePrice": 42.1,
+        "supply": 1487
+      },
+      "Red Nose Reindeer": {
+        "collection": "collectibles",
+        "floor": 49,
+        "lastSalePrice": 25,
+        "supply": 103
+      },
+      "Novice Knight": {
+        "collection": "collectibles",
+        "floor": 49,
+        "lastSalePrice": 45,
+        "supply": 139
+      },
+      "Cabbage Boy": {
+        "collection": "collectibles",
+        "floor": 51,
+        "lastSalePrice": 50,
+        "supply": 1050
+      },
+      "Summer Chicken": {
+        "collection": "collectibles",
+        "floor": 52.29,
+        "lastSalePrice": 48,
+        "supply": 1586
+      },
+      "Peeled Potato": {
+        "collection": "collectibles",
+        "floor": 54,
+        "lastSalePrice": 46,
+        "supply": 1000
+      },
+      "Lady Bug": {
+        "collection": "collectibles",
+        "floor": 54,
+        "lastSalePrice": 47,
+        "supply": 2535
+      },
+      "Poppy": {
+        "collection": "collectibles",
+        "floor": 54.92,
+        "lastSalePrice": 45.3,
+        "supply": 2298
+      },
+      "Meerkat": {
+        "collection": "collectibles",
+        "floor": 55,
+        "lastSalePrice": 57.99,
+        "supply": 4132
+      },
+      "White Crow": {
+        "collection": "collectibles",
+        "floor": 57,
+        "lastSalePrice": 10.1,
+        "supply": 400
+      },
+      "Astronaut Sheep": {
+        "collection": "collectibles",
+        "floor": 58,
+        "lastSalePrice": 53,
+        "supply": 501
+      },
+      "Vinny": {
+        "collection": "collectibles",
+        "floor": 58.4,
+        "lastSalePrice": 58.4,
+        "supply": 1799
+      },
+      "Stellar Sunflower": {
+        "collection": "collectibles",
+        "floor": 58.9789,
+        "lastSalePrice": 50,
+        "supply": 439
+      },
+      "Mermaid Sheep": {
+        "collection": "collectibles",
+        "floor": 59.9,
+        "lastSalePrice": 50,
+        "supply": 589
+      },
+      "Goblin Rug": {
+        "collection": "collectibles",
+        "floor": 60,
+        "lastSalePrice": 30,
+        "supply": 50
+      },
+      "Jellyfish": {
+        "collection": "collectibles",
+        "floor": 63.999,
+        "lastSalePrice": 63.999,
+        "supply": 1549
+      },
+      "Nurse Sheep": {
+        "collection": "collectibles",
+        "floor": 65,
+        "lastSalePrice": 73.8879,
+        "supply": 220
+      },
+      "Tuxedo Claus": {
+        "collection": "collectibles",
+        "floor": 69,
+        "lastSalePrice": 25,
+        "supply": 64
+      },
+      "Maneki Neko": {
+        "collection": "collectibles",
+        "floor": 69,
+        "lastSalePrice": 68,
+        "supply": 6840
+      },
+      "Soil Krabby": {
+        "collection": "collectibles",
+        "floor": 70,
+        "lastSalePrice": 64,
+        "supply": 1582
+      },
+      "Flower Fox": {
+        "collection": "collectibles",
+        "floor": 71.999,
+        "lastSalePrice": 67,
+        "supply": 3248
+      },
+      "Giant Yam": {
+        "collection": "collectibles",
+        "floor": 74.7,
+        "lastSalePrice": 73.8999,
+        "supply": 1433
+      },
+      "Pink Dolphin": {
+        "collection": "collectibles",
+        "floor": 79,
+        "lastSalePrice": 65,
+        "supply": 1582
+      },
+      "Royal Throne": {
+        "collection": "collectibles",
+        "floor": 80,
+        "lastSalePrice": 40,
+        "supply": 60
+      },
+      "Cannonball": {
+        "collection": "collectibles",
+        "floor": 80.9,
+        "lastSalePrice": 80.899,
+        "supply": 895
+      },
+      "Kernaldo": {
+        "collection": "collectibles",
+        "floor": 81,
+        "lastSalePrice": 80,
+        "supply": 2770
+      },
+      "Reveling Lemon": {
+        "collection": "collectibles",
+        "floor": 84.78,
+        "lastSalePrice": 84,
+        "supply": 1852
+      },
+      "Giant Zucchini": {
+        "collection": "collectibles",
+        "floor": 84.9999,
+        "lastSalePrice": 56.003,
+        "supply": 587
+      },
+      "Frozen Cow": {
+        "collection": "collectibles",
+        "floor": 90,
+        "lastSalePrice": 79,
+        "supply": 227
+      },
+      "Undead Rooster": {
+        "collection": "collectibles",
+        "floor": 97,
+        "lastSalePrice": 85,
+        "supply": 3084
+      },
+      "Foliant": {
+        "collection": "collectibles",
+        "floor": 97.9,
+        "lastSalePrice": 71.1,
+        "supply": 1620
+      },
+      "Golden Bear Head": {
+        "collection": "collectibles",
+        "floor": 99,
+        "lastSalePrice": 60,
+        "supply": 50
+      },
+      "Miffy": {
+        "collection": "collectibles",
+        "floor": 100,
+        "lastSalePrice": 40,
+        "supply": 193
+      },
+      "Tiki Totem": {
+        "collection": "collectibles",
+        "floor": 102.96,
+        "lastSalePrice": 97.2,
+        "supply": 7600
+      },
+      "Queen Cornelia": {
+        "collection": "collectibles",
+        "floor": 106,
+        "lastSalePrice": 100,
+        "supply": 1050
+      },
+      "Swiss Whiskers": {
+        "collection": "collectibles",
+        "floor": 108,
+        "lastSalePrice": 91,
+        "supply": 520
+      },
+      "Lemon Shark": {
+        "collection": "collectibles",
+        "floor": 113.9998,
+        "lastSalePrice": 91.15,
+        "supply": 733
+      },
+      "Squirrel Monkey": {
+        "collection": "collectibles",
+        "floor": 114,
+        "lastSalePrice": 113,
+        "supply": 1035
+      },
+      "Soybliss": {
+        "collection": "collectibles",
+        "floor": 115,
+        "lastSalePrice": 100,
+        "supply": 529
+      },
+      "Grain Grinder": {
+        "collection": "collectibles",
+        "floor": 115,
+        "lastSalePrice": 114,
+        "supply": 2777
+      },
+      "Alba": {
+        "collection": "collectibles",
+        "floor": 116,
+        "lastSalePrice": 114,
+        "supply": 800
+      },
+      "Spa Cow": {
+        "collection": "collectibles",
+        "floor": 121,
+        "lastSalePrice": 110,
+        "supply": 725
+      },
+      "Lunar Temple": {
+        "collection": "collectibles",
+        "floor": 122,
+        "lastSalePrice": 122.99,
+        "supply": 596
+      },
+      "Observatory": {
+        "collection": "collectibles",
+        "floor": 122,
+        "lastSalePrice": 125,
+        "supply": 5563
+      },
+      "Rooster": {
+        "collection": "collectibles",
+        "floor": 126,
+        "lastSalePrice": 109,
+        "supply": 2510
+      },
+      "Freya Fox": {
+        "collection": "collectibles",
+        "floor": 126,
+        "lastSalePrice": 120,
+        "supply": 499
+      },
+      "Nancy": {
+        "collection": "collectibles",
+        "floor": 130,
+        "lastSalePrice": 116,
+        "supply": 17857
+      },
+      "Mushroom House": {
+        "collection": "collectibles",
+        "floor": 130,
+        "lastSalePrice": 125,
+        "supply": 2048
+      },
+      "Carrot Sword": {
+        "collection": "collectibles",
+        "floor": 133,
+        "lastSalePrice": 102,
+        "supply": 1001
+      },
+      "Poseidon": {
+        "collection": "collectibles",
+        "floor": 139,
+        "lastSalePrice": 129,
+        "supply": 883
+      },
+      "Baby Cow": {
+        "collection": "collectibles",
+        "floor": 140,
+        "lastSalePrice": 95.5,
+        "supply": 577
+      },
+      "Frozen Sheep": {
+        "collection": "collectibles",
+        "floor": 140,
+        "lastSalePrice": 120,
+        "supply": 150
+      },
+      "El Pollo Veloz": {
+        "collection": "collectibles",
+        "floor": 159,
+        "lastSalePrice": 134,
+        "supply": 1619
+      },
+      "Lunar Calendar": {
+        "collection": "collectibles",
+        "floor": 159.9899,
+        "lastSalePrice": 155,
+        "supply": 6210
+      },
+      "Battle Fish": {
+        "collection": "collectibles",
+        "floor": 160,
+        "lastSalePrice": 110,
+        "supply": 197
+      },
+      "Jester in a box": {
+        "collection": "collectibles",
+        "floor": 167,
+        "lastSalePrice": 50,
+        "supply": 67
+      },
+      "Super Star": {
+        "collection": "collectibles",
+        "floor": 174,
+        "lastSalePrice": 169,
+        "supply": 481
+      },
+      "Mammoth": {
+        "collection": "collectibles",
+        "floor": 177,
+        "lastSalePrice": 165,
+        "supply": 854
+      },
+      "Skill Shrimpy": {
+        "collection": "collectibles",
+        "floor": 178.999,
+        "lastSalePrice": 169.9999,
+        "supply": 2318
+      },
+      "Pyramid": {
+        "collection": "collectibles",
+        "floor": 180,
+        "lastSalePrice": 45,
+        "supply": 65
+      },
+      "Fruit Tune Box": {
+        "collection": "collectibles",
+        "floor": 180,
+        "lastSalePrice": 163,
+        "supply": 1552
+      },
+      "Tunnel Mole": {
+        "collection": "collectibles",
+        "floor": 186,
+        "lastSalePrice": 185,
+        "supply": 9998
+      },
+      "Ayam Cemani": {
+        "collection": "collectibles",
+        "floor": 198.998,
+        "lastSalePrice": 185,
+        "supply": 1828
+      },
+      "Speed Trap": {
+        "collection": "collectibles",
+        "floor": 199,
+        "lastSalePrice": 138,
+        "supply": 170
+      },
+      "Sea Arch": {
+        "collection": "collectibles",
+        "floor": 199,
+        "lastSalePrice": 165,
+        "supply": 35
+      },
+      "Tin Turtle": {
+        "collection": "collectibles",
+        "floor": 202,
+        "lastSalePrice": 169,
+        "supply": 1142
+      },
+      "Heart of Davy Jones": {
+        "collection": "collectibles",
+        "floor": 202,
+        "lastSalePrice": 200,
+        "supply": 999
+      },
+      "Crim Peckster": {
+        "collection": "collectibles",
+        "floor": 218,
+        "lastSalePrice": 191,
+        "supply": 1770
+      },
+      "Hungry Caterpillar": {
+        "collection": "collectibles",
+        "floor": 238,
+        "lastSalePrice": 204,
+        "supply": 355
+      },
+      "King of Bears": {
+        "collection": "collectibles",
+        "floor": 239,
+        "lastSalePrice": 235,
+        "supply": 503
+      },
+      "Maximus": {
+        "collection": "collectibles",
+        "floor": 240,
+        "lastSalePrice": 190,
+        "supply": 400
+      },
+      "Longhorn Cowfish": {
+        "collection": "collectibles",
+        "floor": 240,
+        "lastSalePrice": 239,
+        "supply": 916
+      },
+      "Genie Lamp": {
+        "collection": "collectibles",
+        "floor": 248,
+        "lastSalePrice": 249,
+        "supply": 166
+      },
+      "Rock Golem": {
+        "collection": "collectibles",
+        "floor": 261,
+        "lastSalePrice": 262,
+        "supply": 3021
+      },
+      "Black Bearry": {
+        "collection": "collectibles",
+        "floor": 273,
+        "lastSalePrice": 226,
+        "supply": 534
+      },
+      "Rocky the Mole": {
+        "collection": "collectibles",
+        "floor": 275,
+        "lastSalePrice": 267,
+        "supply": 3390
+      },
+      "Nautilus": {
+        "collection": "collectibles",
+        "floor": 278,
+        "lastSalePrice": 278,
+        "supply": 247
+      },
+      "Cabbage Girl": {
+        "collection": "collectibles",
+        "floor": 279,
+        "lastSalePrice": 230,
+        "supply": 364
+      },
+      "Giant Turnip": {
+        "collection": "collectibles",
+        "floor": 319,
+        "lastSalePrice": 280,
+        "supply": 350
+      },
+      "Moo-ver": {
+        "collection": "collectibles",
+        "floor": 349,
+        "lastSalePrice": 294,
+        "supply": 810
+      },
+      "Mysterious Parsnip": {
+        "collection": "collectibles",
+        "floor": 349,
+        "lastSalePrice": 303,
+        "supply": 512
+      },
+      "Toxic Tuft": {
+        "collection": "collectibles",
+        "floor": 350,
+        "lastSalePrice": 230,
+        "supply": 73
+      },
+      "Knowledge Crab": {
+        "collection": "collectibles",
+        "floor": 399,
+        "lastSalePrice": 288,
+        "supply": 500
+      },
+      "Humming Bird": {
+        "collection": "collectibles",
+        "floor": 400,
+        "lastSalePrice": 363,
+        "supply": 329
+      },
+      "Dr Cow": {
+        "collection": "collectibles",
+        "floor": 427.777,
+        "lastSalePrice": 350,
+        "supply": 486
+      },
+      "Woody the Beaver": {
+        "collection": "collectibles",
+        "floor": 430,
+        "lastSalePrice": 418,
+        "supply": 3328
+      },
+      "Sir Goldensnout": {
+        "collection": "collectibles",
+        "floor": 441,
+        "lastSalePrice": 420,
+        "supply": 525
+      },
+      "Crimstone Clam": {
+        "collection": "collectibles",
+        "floor": 445,
+        "lastSalePrice": 444,
+        "supply": 582
+      },
+      "Grape Granny": {
+        "collection": "collectibles",
+        "floor": 449,
+        "lastSalePrice": 439,
+        "supply": 530
+      },
+      "Pet Rug": {
+        "collection": "collectibles",
+        "floor": 500,
+        "lastSalePrice": 100,
+        "supply": 10
+      },
+      "Scarecrow": {
+        "collection": "collectibles",
+        "floor": 589,
+        "lastSalePrice": 594,
+        "supply": 4999
+      },
+      "Gnome": {
+        "collection": "collectibles",
+        "floor": 609,
+        "lastSalePrice": 500,
+        "supply": 784
+      },
+      "Cluckulator": {
+        "collection": "collectibles",
+        "floor": 633,
+        "lastSalePrice": 630,
+        "supply": 470
+      },
+      "Navigation Table": {
+        "collection": "collectibles",
+        "floor": 640,
+        "lastSalePrice": 570,
+        "supply": 180
+      },
+      "Tomato Clown": {
+        "collection": "collectibles",
+        "floor": 668,
+        "lastSalePrice": 500,
+        "supply": 300
+      },
+      "Giant Kale": {
+        "collection": "collectibles",
+        "floor": 690,
+        "lastSalePrice": 635,
+        "supply": 420
+      },
+      "The Sunflower Man Statue": {
+        "collection": "collectibles",
+        "floor": 700,
+        "lastSalePrice": 175,
+        "supply": 25
+      },
+      "Giant Onion": {
+        "collection": "collectibles",
+        "floor": 700,
+        "lastSalePrice": 620,
+        "supply": 400
+      },
+      "Lemon Tea Bath": {
+        "collection": "collectibles",
+        "floor": 704,
+        "lastSalePrice": 688,
+        "supply": 300
+      },
+      "Summer Guardian": {
+        "collection": "collectibles",
+        "floor": 707,
+        "lastSalePrice": 645,
+        "supply": 324
+      },
+      "Moon Fox Statue": {
+        "collection": "collectibles",
+        "floor": 725,
+        "lastSalePrice": 205,
+        "supply": 30
+      },
+      "Nugget": {
+        "collection": "collectibles",
+        "floor": 729,
+        "lastSalePrice": 788,
+        "supply": 1020
+      },
+      "Giant Artichoke": {
+        "collection": "collectibles",
+        "floor": 734,
+        "lastSalePrice": 719,
+        "supply": 137
+      },
+      "Tomato Bombard": {
+        "collection": "collectibles",
+        "floor": 734.9999,
+        "lastSalePrice": 511,
+        "supply": 216
+      },
+      "Wood Nymph Wendy": {
+        "collection": "collectibles",
+        "floor": 764,
+        "lastSalePrice": 759,
+        "supply": 1000
+      },
+      "Sunflower Rock": {
+        "collection": "collectibles",
+        "floor": 777,
+        "lastSalePrice": 120,
+        "supply": 152
+      },
+      "Winter Guardian": {
+        "collection": "collectibles",
+        "floor": 777,
+        "lastSalePrice": 731,
+        "supply": 325
+      },
+      "Mootant": {
+        "collection": "collectibles",
+        "floor": 778,
+        "lastSalePrice": 607,
+        "supply": 90
+      },
+      "Sheaf of Plenty": {
+        "collection": "collectibles",
+        "floor": 845,
+        "lastSalePrice": 778,
+        "supply": 664
+      },
+      "Spring Guardian": {
+        "collection": "collectibles",
+        "floor": 850,
+        "lastSalePrice": 750,
+        "supply": 325
+      },
+      "Autumn Guardian": {
+        "collection": "collectibles",
+        "floor": 855,
+        "lastSalePrice": 855,
+        "supply": 325
+      },
+      "Parasaur Skull": {
+        "collection": "collectibles",
+        "floor": 987,
+        "lastSalePrice": 100,
+        "supply": 35
+      },
+      "Deep Sea Slug": {
+        "collection": "collectibles",
+        "floor": 990,
+        "lastSalePrice": 887,
+        "supply": 81
+      },
+      "Camel": {
+        "collection": "collectibles",
+        "floor": 997.9998,
+        "lastSalePrice": 949,
+        "supply": 563
+      },
+      "Farm Dog": {
+        "collection": "collectibles",
+        "floor": 1099,
+        "lastSalePrice": 800,
+        "supply": 410
+      },
+      "Crimson Carp": {
+        "collection": "collectibles",
+        "floor": 1196,
+        "lastSalePrice": 400,
+        "supply": 117
+      },
+      "Apprentice Beaver": {
+        "collection": "collectibles",
+        "floor": 1240,
+        "lastSalePrice": 1200,
+        "supply": 2069
+      },
+      "Walrus": {
+        "collection": "collectibles",
+        "floor": 1265,
+        "lastSalePrice": 1250,
+        "supply": 230
+      },
+      "Jurassic Droplet": {
+        "collection": "collectibles",
+        "floor": 1500,
+        "lastSalePrice": 318,
+        "supply": 35
+      },
+      "Rainbow Artist Bear": {
+        "collection": "collectibles",
+        "floor": 1800,
+        "lastSalePrice": 333,
+        "supply": 24
+      },
+      "Groovy Gramophone": {
+        "collection": "collectibles",
+        "floor": 1800,
+        "lastSalePrice": 1600,
+        "supply": 310
+      },
+      "Chicken Coop": {
+        "collection": "collectibles",
+        "floor": 1804,
+        "lastSalePrice": 1400,
+        "supply": 1015
+      },
+      "Golden Cauliflower": {
+        "collection": "collectibles",
+        "floor": 1890,
+        "lastSalePrice": 1051,
+        "supply": 114
+      },
+      "Magma Stone": {
+        "collection": "collectibles",
+        "floor": 2046,
+        "lastSalePrice": 1900,
+        "supply": 262
+      },
+      "Barn Blueprint": {
+        "collection": "collectibles",
+        "floor": 2339,
+        "lastSalePrice": 2250,
+        "supply": 500
+      },
+      "Queen Bee": {
+        "collection": "collectibles",
+        "floor": 2350,
+        "lastSalePrice": 2369,
+        "supply": 215
+      },
+      "Royal Crab Pot": {
+        "collection": "collectibles",
+        "floor": 2500,
+        "lastSalePrice": 2250,
+        "supply": 80
+      },
+      "Iron Idol": {
+        "collection": "collectibles",
+        "floor": 3490,
+        "lastSalePrice": 2700,
+        "supply": 200
+      },
+      "Hoot": {
+        "collection": "collectibles",
+        "floor": 3590,
+        "lastSalePrice": 2420,
+        "supply": 100
+      },
+      "Crab House": {
+        "collection": "collectibles",
+        "floor": 4449,
+        "lastSalePrice": 3680,
+        "supply": 110
+      },
+      "Golden Sheep": {
+        "collection": "collectibles",
+        "floor": 4999,
+        "lastSalePrice": 5197,
+        "supply": 275
+      },
+      "Obsidian Turtle": {
+        "collection": "collectibles",
+        "floor": 5000,
+        "lastSalePrice": 4800,
+        "supply": 205
+      },
+      "Turbo Sprout": {
+        "collection": "collectibles",
+        "floor": 6395,
+        "lastSalePrice": 5500,
+        "supply": 155
+      },
+      "Gold Egg": {
+        "collection": "collectibles",
+        "floor": 6500,
+        "lastSalePrice": 6945,
+        "supply": 300
+      },
+      "Quarry": {
+        "collection": "collectibles",
+        "floor": 6874,
+        "lastSalePrice": 6897,
+        "supply": 205
+      },
+      "Farm Cat": {
+        "collection": "collectibles",
+        "floor": 8100,
+        "lastSalePrice": 2700,
+        "supply": 76
+      },
+      "Kuebiko": {
+        "collection": "collectibles",
+        "floor": 8470,
+        "lastSalePrice": 9700,
+        "supply": 209
+      },
+      "Emerald Turtle": {
+        "collection": "collectibles",
+        "floor": 9190,
+        "lastSalePrice": 6000,
+        "supply": 100
+      },
+      "Pharaoh Gnome": {
+        "collection": "collectibles",
+        "floor": 11167,
+        "lastSalePrice": 14990,
+        "supply": 55
+      },
+      "Foreman Beaver": {
+        "collection": "collectibles",
+        "floor": 12899,
+        "lastSalePrice": 12899,
+        "supply": 307
+      },
+      "Grinx's Hammer": {
+        "collection": "collectibles",
+        "floor": 60000,
+        "lastSalePrice": 50000,
+        "supply": 50
+      },
+      "Golden Cow": {
+        "collection": "collectibles",
+        "floor": 65000,
+        "lastSalePrice": 65000,
+        "supply": 50
+      },
+      "Christmas Tree": {
+        "collection": "collectibles",
+        "floor": 88888,
+        "lastSalePrice": 55555,
+        "supply": 46
+      },
+      "Battlecry Drum": {
+        "collection": "collectibles",
+        "floor": 0,
+        "lastSalePrice": 1,
+        "supply": 1
+      },
+      "Golden Gallant": {
+        "collection": "collectibles",
+        "floor": 0,
+        "lastSalePrice": 0,
+        "supply": 0
+      },
+      "Golden Guardian": {
+        "collection": "collectibles",
+        "floor": 0,
+        "lastSalePrice": 0,
+        "supply": 0
+      },
+      "Silver Stallion": {
+        "collection": "collectibles",
+        "floor": 0,
+        "lastSalePrice": 0,
+        "supply": 0
+      },
+      "2026 Tiara": {
+        "collection": "wearables",
+        "floor": 0.1279,
+        "lastSalePrice": 0.013,
+        "supply": 6335
+      },
+      "Clam Shell Hat": {
+        "collection": "wearables",
+        "floor": 0.1288,
+        "lastSalePrice": 0.0501,
+        "supply": 15182
+      },
+      "Spa Hat": {
+        "collection": "wearables",
+        "floor": 0.13,
+        "lastSalePrice": 0.1289,
+        "supply": 8017
+      },
+      "Garbage Bin Hat": {
+        "collection": "wearables",
+        "floor": 0.18,
+        "lastSalePrice": 0.17,
+        "supply": 5324
+      },
+      "Fish Hook Hat": {
+        "collection": "wearables",
+        "floor": 0.185,
+        "lastSalePrice": 0.013,
+        "supply": 15781
+      },
+      "New Years Tiara": {
+        "collection": "wearables",
+        "floor": 0.195,
+        "lastSalePrice": 0.0319,
+        "supply": 7262
+      },
+      "Cowgirl Skirt": {
+        "collection": "wearables",
+        "floor": 0.2279,
+        "lastSalePrice": 0.2,
+        "supply": 6110
+      },
+      "Striped Red Shirt": {
+        "collection": "wearables",
+        "floor": 0.2549,
+        "lastSalePrice": 0.19,
+        "supply": 10114
+      },
+      "Lucky Red Hat": {
+        "collection": "wearables",
+        "floor": 0.2749,
+        "lastSalePrice": 0.2768,
+        "supply": 12336
+      },
+      "Embersteel Suit": {
+        "collection": "wearables",
+        "floor": 0.29,
+        "lastSalePrice": 0.29,
+        "supply": 10461
+      },
+      "Pet Specialist Hat": {
+        "collection": "wearables",
+        "floor": 0.297,
+        "lastSalePrice": 0.05,
+        "supply": 4274
+      },
+      "Acorn Hat": {
+        "collection": "wearables",
+        "floor": 0.2993,
+        "lastSalePrice": 0.2989,
+        "supply": 3981
+      },
+      "Amberfall Suit": {
+        "collection": "wearables",
+        "floor": 0.2999,
+        "lastSalePrice": 0.28,
+        "supply": 5849
+      },
+      "Fish Hook Waders": {
+        "collection": "wearables",
+        "floor": 0.3299,
+        "lastSalePrice": 0.3298,
+        "supply": 2989
+      },
+      "Fish Hook Vest": {
+        "collection": "wearables",
+        "floor": 0.38,
+        "lastSalePrice": 0.35,
+        "supply": 2052
+      },
+      "Soybean Onesie": {
+        "collection": "wearables",
+        "floor": 0.38,
+        "lastSalePrice": 0.389,
+        "supply": 6553
+      },
+      "Flower Mask": {
+        "collection": "wearables",
+        "floor": 0.39,
+        "lastSalePrice": 0.1,
+        "supply": 4665
+      },
+      "Pet Specialist Pants": {
+        "collection": "wearables",
+        "floor": 0.397,
+        "lastSalePrice": 0.39,
+        "supply": 2617
+      },
+      "Bloomwarden Suit": {
+        "collection": "wearables",
+        "floor": 0.3999,
+        "lastSalePrice": 0.13,
+        "supply": 2515
+      },
+      "Unicorn Horn": {
+        "collection": "wearables",
+        "floor": 0.4649,
+        "lastSalePrice": 0.1,
+        "supply": 4261
+      },
+      "Gingerbread Onesie": {
+        "collection": "wearables",
+        "floor": 0.486,
+        "lastSalePrice": 0.4,
+        "supply": 12813
+      },
+      "Fox Hat": {
+        "collection": "wearables",
+        "floor": 0.51,
+        "lastSalePrice": 0.4799,
+        "supply": 12643
+      },
+      "Love Heart Onesie": {
+        "collection": "wearables",
+        "floor": 0.5499,
+        "lastSalePrice": 0.05,
+        "supply": 5012
+      },
+      "Spa Robe": {
+        "collection": "wearables",
+        "floor": 0.639,
+        "lastSalePrice": 0.638,
+        "supply": 2534
+      },
+      "Orange Monarch Shirt": {
+        "collection": "wearables",
+        "floor": 0.699,
+        "lastSalePrice": 0.698,
+        "supply": 2921
+      },
+      "Elf Suit": {
+        "collection": "wearables",
+        "floor": 0.737,
+        "lastSalePrice": 0.74,
+        "supply": 4233
+      },
+      "Locust Onesie": {
+        "collection": "wearables",
+        "floor": 0.7794,
+        "lastSalePrice": 0.2001,
+        "supply": 9416
+      },
+      "Painter's Cap": {
+        "collection": "wearables",
+        "floor": 0.79,
+        "lastSalePrice": 0.785,
+        "supply": 2534
+      },
+      "Love Charm Shirt": {
+        "collection": "wearables",
+        "floor": 0.8895,
+        "lastSalePrice": 0.8896,
+        "supply": 2143
+      },
+      "Santa Suit": {
+        "collection": "wearables",
+        "floor": 0.89,
+        "lastSalePrice": 0.9998,
+        "supply": 4201
+      },
+      "Full Bloom Shirt": {
+        "collection": "wearables",
+        "floor": 0.8999,
+        "lastSalePrice": 0.51,
+        "supply": 525
+      },
+      "Cowboy Shirt": {
+        "collection": "wearables",
+        "floor": 0.9,
+        "lastSalePrice": 0.4,
+        "supply": 1323
+      },
+      "Santa Beard": {
+        "collection": "wearables",
+        "floor": 0.9959,
+        "lastSalePrice": 0.0382,
+        "supply": 17404
+      },
+      "Spa Slippers": {
+        "collection": "wearables",
+        "floor": 0.9996,
+        "lastSalePrice": 0.9,
+        "supply": 1620
+      },
+      "Tiki Pants": {
+        "collection": "wearables",
+        "floor": 1,
+        "lastSalePrice": 0.12,
+        "supply": 1350
+      },
+      "Reindeer Suit": {
+        "collection": "wearables",
+        "floor": 1,
+        "lastSalePrice": 1,
+        "supply": 9541
+      },
+      "China Town Background": {
+        "collection": "wearables",
+        "floor": 1,
+        "lastSalePrice": 1,
+        "supply": 8869
+      },
+      "Lucky Red Suit": {
+        "collection": "wearables",
+        "floor": 1,
+        "lastSalePrice": 1.2,
+        "supply": 1710
+      },
+      "Valoria Wreath": {
+        "collection": "wearables",
+        "floor": 1,
+        "lastSalePrice": 2,
+        "supply": 998
+      },
+      "Festival of Colors Background": {
+        "collection": "wearables",
+        "floor": 1.1,
+        "lastSalePrice": 0.5,
+        "supply": 2709
+      },
+      "Love's Topper": {
+        "collection": "wearables",
+        "floor": 1.1,
+        "lastSalePrice": 1,
+        "supply": 2030
+      },
+      "Glacierguard Suit": {
+        "collection": "wearables",
+        "floor": 1.1,
+        "lastSalePrice": 1.0999,
+        "supply": 1817
+      },
+      "Pharaoh Headdress": {
+        "collection": "wearables",
+        "floor": 1.135,
+        "lastSalePrice": 1.1587,
+        "supply": 3142
+      },
+      "Recycle Shirt": {
+        "collection": "wearables",
+        "floor": 1.145,
+        "lastSalePrice": 0.0222,
+        "supply": 924
+      },
+      "Reel Fishing Vest": {
+        "collection": "wearables",
+        "floor": 1.2,
+        "lastSalePrice": 0.2621,
+        "supply": 1523
+      },
+      "Orange Monarch Dress": {
+        "collection": "wearables",
+        "floor": 1.25,
+        "lastSalePrice": 1.26,
+        "supply": 2593
+      },
+      "Blue Monarch Shirt": {
+        "collection": "wearables",
+        "floor": 1.3499,
+        "lastSalePrice": 0.3,
+        "supply": 1303
+      },
+      "Cowboy Hat": {
+        "collection": "wearables",
+        "floor": 1.35,
+        "lastSalePrice": 0.12,
+        "supply": 2977
+      },
+      "Desert Camel Background": {
+        "collection": "wearables",
+        "floor": 1.3799,
+        "lastSalePrice": 0.3601,
+        "supply": 2377
+      },
+      "Cowboy Trouser": {
+        "collection": "wearables",
+        "floor": 1.38,
+        "lastSalePrice": 0.44,
+        "supply": 769
+      },
+      "Straw Hat": {
+        "collection": "wearables",
+        "floor": 1.3899,
+        "lastSalePrice": 0.53,
+        "supply": 1307
+      },
+      "Mushroom Sweater": {
+        "collection": "wearables",
+        "floor": 1.45,
+        "lastSalePrice": 1.4499,
+        "supply": 1158
+      },
+      "Pet Specialist Shirt": {
+        "collection": "wearables",
+        "floor": 1.4989,
+        "lastSalePrice": 0.1,
+        "supply": 796
+      },
+      "Pumpkin Shirt": {
+        "collection": "wearables",
+        "floor": 1.75,
+        "lastSalePrice": 1.7,
+        "supply": 1527
+      },
+      "Frost Sword": {
+        "collection": "wearables",
+        "floor": 1.88,
+        "lastSalePrice": 0.6,
+        "supply": 1129
+      },
+      "Ugly Christmas Sweater": {
+        "collection": "wearables",
+        "floor": 1.9999,
+        "lastSalePrice": 0.08,
+        "supply": 4001
+      },
+      "Wellies": {
+        "collection": "wearables",
+        "floor": 1.9999,
+        "lastSalePrice": 0.2,
+        "supply": 397
+      },
+      "Kama": {
+        "collection": "wearables",
+        "floor": 2,
+        "lastSalePrice": 0.2,
+        "supply": 2315
+      },
+      "Chef Hat": {
+        "collection": "wearables",
+        "floor": 2,
+        "lastSalePrice": 1,
+        "supply": 5452
+      },
+      "Reindeer Antlers": {
+        "collection": "wearables",
+        "floor": 2,
+        "lastSalePrice": 1,
+        "supply": 2648
+      },
+      "Cupid Hair": {
+        "collection": "wearables",
+        "floor": 2,
+        "lastSalePrice": 1,
+        "supply": 6937
+      },
+      "Cupid Sandals": {
+        "collection": "wearables",
+        "floor": 2,
+        "lastSalePrice": 1,
+        "supply": 1399
+      },
+      "Bunny Onesie": {
+        "collection": "wearables",
+        "floor": 2,
+        "lastSalePrice": 1,
+        "supply": 9569
+      },
+      "Witch's Broom": {
+        "collection": "wearables",
+        "floor": 2,
+        "lastSalePrice": 1.99,
+        "supply": 1072
+      },
+      "Lion Dance Mask": {
+        "collection": "wearables",
+        "floor": 2,
+        "lastSalePrice": 2,
+        "supply": 3916
+      },
+      "St Patricks Hat": {
+        "collection": "wearables",
+        "floor": 2,
+        "lastSalePrice": 2,
+        "supply": 791
+      },
+      "Paint Splattered Shirt": {
+        "collection": "wearables",
+        "floor": 2,
+        "lastSalePrice": 2,
+        "supply": 220
+      },
+      "Raccoon Onesie": {
+        "collection": "wearables",
+        "floor": 2,
+        "lastSalePrice": 2,
+        "supply": 3130
+      },
+      "Valentine's Field Background": {
+        "collection": "wearables",
+        "floor": 2.0996,
+        "lastSalePrice": 0.7,
+        "supply": 2028
+      },
+      "Cool Glasses": {
+        "collection": "wearables",
+        "floor": 2.1879,
+        "lastSalePrice": 0.5,
+        "supply": 1198
+      },
+      "Walrus Onesie": {
+        "collection": "wearables",
+        "floor": 2.3797,
+        "lastSalePrice": 2.3797,
+        "supply": 13487
+      },
+      "Parsnip Horns": {
+        "collection": "wearables",
+        "floor": 2.5,
+        "lastSalePrice": 0.5,
+        "supply": 826
+      },
+      "Beekeeper Suit": {
+        "collection": "wearables",
+        "floor": 2.79,
+        "lastSalePrice": 2.7999,
+        "supply": 941
+      },
+      "Adventurer's Suit": {
+        "collection": "wearables",
+        "floor": 2.88,
+        "lastSalePrice": 1,
+        "supply": 489
+      },
+      "Ankh Shirt": {
+        "collection": "wearables",
+        "floor": 2.8999,
+        "lastSalePrice": 1,
+        "supply": 579
+      },
+      "Frizzy Bob Cut": {
+        "collection": "wearables",
+        "floor": 2.8999,
+        "lastSalePrice": 2.88,
+        "supply": 781
+      },
+      "Crown": {
+        "collection": "wearables",
+        "floor": 2.9,
+        "lastSalePrice": 0.2,
+        "supply": 729
+      },
+      "Blue Monarch Dress": {
+        "collection": "wearables",
+        "floor": 2.9599,
+        "lastSalePrice": 0.6,
+        "supply": 1050
+      },
+      "Bunny Pants": {
+        "collection": "wearables",
+        "floor": 2.999,
+        "lastSalePrice": 0.33,
+        "supply": 735
+      },
+      "Paint Splattered Overalls": {
+        "collection": "wearables",
+        "floor": 3,
+        "lastSalePrice": 0.6,
+        "supply": 198
+      },
+      "Candy Cane": {
+        "collection": "wearables",
+        "floor": 3,
+        "lastSalePrice": 1,
+        "supply": 853
+      },
+      "Sleeping Otter": {
+        "collection": "wearables",
+        "floor": 3,
+        "lastSalePrice": 3,
+        "supply": 4998
+      },
+      "Moonseeker Hand Puppet": {
+        "collection": "wearables",
+        "floor": 3,
+        "lastSalePrice": 3,
+        "supply": 679
+      },
+      "Explorer Shirt": {
+        "collection": "wearables",
+        "floor": 3.4,
+        "lastSalePrice": 1.7,
+        "supply": 363
+      },
+      "Water Gourd": {
+        "collection": "wearables",
+        "floor": 3.6,
+        "lastSalePrice": 0.889,
+        "supply": 337
+      },
+      "Amber Amulet": {
+        "collection": "wearables",
+        "floor": 3.7,
+        "lastSalePrice": 3.6999,
+        "supply": 639
+      },
+      "Tiki Mask": {
+        "collection": "wearables",
+        "floor": 3.89,
+        "lastSalePrice": 3.4399,
+        "supply": 564
+      },
+      "Comfy Xmas Sweater": {
+        "collection": "wearables",
+        "floor": 4,
+        "lastSalePrice": 0.3,
+        "supply": 262
+      },
+      "Ancient Goblin Sword": {
+        "collection": "wearables",
+        "floor": 4,
+        "lastSalePrice": 2,
+        "supply": 1399
+      },
+      "Santa Hat": {
+        "collection": "wearables",
+        "floor": 4,
+        "lastSalePrice": 3,
+        "supply": 2904
+      },
+      "Red Pepper Onesie": {
+        "collection": "wearables",
+        "floor": 4.0993,
+        "lastSalePrice": 3.5001,
+        "supply": 16488
+      },
+      "Comfy Xmas Pants": {
+        "collection": "wearables",
+        "floor": 4.25,
+        "lastSalePrice": 0.8008,
+        "supply": 232
+      },
+      "Witching Wardrobe": {
+        "collection": "wearables",
+        "floor": 4.3999,
+        "lastSalePrice": 0.1601,
+        "supply": 1206
+      },
+      "Gardening Overalls": {
+        "collection": "wearables",
+        "floor": 4.3999,
+        "lastSalePrice": 3.99,
+        "supply": 246
+      },
+      "Jack O'Sweets": {
+        "collection": "wearables",
+        "floor": 4.444,
+        "lastSalePrice": 0.5,
+        "supply": 327
+      },
+      "Paint Splattered Hair": {
+        "collection": "wearables",
+        "floor": 4.444,
+        "lastSalePrice": 1.501,
+        "supply": 335
+      },
+      "Research Uniform": {
+        "collection": "wearables",
+        "floor": 4.5,
+        "lastSalePrice": 2.0001,
+        "supply": 310
+      },
+      "Skull Shirt": {
+        "collection": "wearables",
+        "floor": 4.54,
+        "lastSalePrice": 1.5001,
+        "supply": 482
+      },
+      "Shrimp Onesie": {
+        "collection": "wearables",
+        "floor": 4.8499,
+        "lastSalePrice": 4.8499,
+        "supply": 13686
+      },
+      "Reindeer Mask": {
+        "collection": "wearables",
+        "floor": 4.85,
+        "lastSalePrice": 4,
+        "supply": 258
+      },
+      "Project Dignity Hoodie": {
+        "collection": "wearables",
+        "floor": 5,
+        "lastSalePrice": 1,
+        "supply": 1101
+      },
+      "Feather Hat": {
+        "collection": "wearables",
+        "floor": 5,
+        "lastSalePrice": 1,
+        "supply": 500
+      },
+      "Ox Costume": {
+        "collection": "wearables",
+        "floor": 5,
+        "lastSalePrice": 1.1,
+        "supply": 440
+      },
+      "Earn Alliance Sombrero": {
+        "collection": "wearables",
+        "floor": 5,
+        "lastSalePrice": 4,
+        "supply": 3002
+      },
+      "Infernal Horns": {
+        "collection": "wearables",
+        "floor": 5,
+        "lastSalePrice": 5,
+        "supply": 514
+      },
+      "Warrior Shirt": {
+        "collection": "wearables",
+        "floor": 5,
+        "lastSalePrice": 7,
+        "supply": 527
+      },
+      "Explorer Shorts": {
+        "collection": "wearables",
+        "floor": 5.4999,
+        "lastSalePrice": 1.5003,
+        "supply": 334
+      },
+      "Rock Hammer": {
+        "collection": "wearables",
+        "floor": 5.7499,
+        "lastSalePrice": 2.41,
+        "supply": 396
+      },
+      "Queen Bee Crown": {
+        "collection": "wearables",
+        "floor": 5.8,
+        "lastSalePrice": 2.7,
+        "supply": 364
+      },
+      "Fish Pro Vest": {
+        "collection": "wearables",
+        "floor": 5.9999,
+        "lastSalePrice": 2.7,
+        "supply": 213
+      },
+      "Shepherd Staff": {
+        "collection": "wearables",
+        "floor": 6,
+        "lastSalePrice": 1,
+        "supply": 444
+      },
+      "Daisy Tee": {
+        "collection": "wearables",
+        "floor": 6,
+        "lastSalePrice": 1.2001,
+        "supply": 250
+      },
+      "Christmas Background": {
+        "collection": "wearables",
+        "floor": 6,
+        "lastSalePrice": 2,
+        "supply": 493
+      },
+      "Summer Top": {
+        "collection": "wearables",
+        "floor": 6,
+        "lastSalePrice": 2,
+        "supply": 200
+      },
+      "Ancient War Hammer": {
+        "collection": "wearables",
+        "floor": 6,
+        "lastSalePrice": 5,
+        "supply": 1114
+      },
+      "404 Chic Boots": {
+        "collection": "wearables",
+        "floor": 6,
+        "lastSalePrice": 5,
+        "supply": 308
+      },
+      "Cemetery Background": {
+        "collection": "wearables",
+        "floor": 6,
+        "lastSalePrice": 7,
+        "supply": 1607
+      },
+      "Adventurer's Torch": {
+        "collection": "wearables",
+        "floor": 6.3994,
+        "lastSalePrice": 2.6,
+        "supply": 488
+      },
+      "Turd Topper": {
+        "collection": "wearables",
+        "floor": 6.8988,
+        "lastSalePrice": 6.898,
+        "supply": 12931
+      },
+      "Carrot Pitchfork": {
+        "collection": "wearables",
+        "floor": 7.9999,
+        "lastSalePrice": 1,
+        "supply": 248
+      },
+      "Peasant Skirt": {
+        "collection": "wearables",
+        "floor": 8,
+        "lastSalePrice": 3,
+        "supply": 179
+      },
+      "Sky Island Background": {
+        "collection": "wearables",
+        "floor": 8,
+        "lastSalePrice": 4,
+        "supply": 598
+      },
+      "Warrior Helmet": {
+        "collection": "wearables",
+        "floor": 8,
+        "lastSalePrice": 5,
+        "supply": 515
+      },
+      "Neon Noiz Shoes": {
+        "collection": "wearables",
+        "floor": 8,
+        "lastSalePrice": 5,
+        "supply": 246
+      },
+      "SFL Office Background": {
+        "collection": "wearables",
+        "floor": 8,
+        "lastSalePrice": 8,
+        "supply": 656
+      },
+      "Explorer Hat": {
+        "collection": "wearables",
+        "floor": 8.4,
+        "lastSalePrice": 0.5,
+        "supply": 368
+      },
+      "Mushroom Shield": {
+        "collection": "wearables",
+        "floor": 8.88,
+        "lastSalePrice": 4,
+        "supply": 326
+      },
+      "Cupid Dress": {
+        "collection": "wearables",
+        "floor": 9,
+        "lastSalePrice": 1,
+        "supply": 3287
+      },
+      "Cookie Shield": {
+        "collection": "wearables",
+        "floor": 9,
+        "lastSalePrice": 1.5,
+        "supply": 358
+      },
+      "Candy Halbred": {
+        "collection": "wearables",
+        "floor": 9,
+        "lastSalePrice": 2.2,
+        "supply": 175
+      },
+      "Pirate Leather Polo": {
+        "collection": "wearables",
+        "floor": 9,
+        "lastSalePrice": 5,
+        "supply": 158
+      },
+      "Tofu Mask": {
+        "collection": "wearables",
+        "floor": 9,
+        "lastSalePrice": 9.499,
+        "supply": 6376
+      },
+      "Desert Background": {
+        "collection": "wearables",
+        "floor": 9,
+        "lastSalePrice": 12,
+        "supply": 315
+      },
+      "Admin Fools Tools": {
+        "collection": "wearables",
+        "floor": 9.89,
+        "lastSalePrice": 10.9,
+        "supply": 179
+      },
+      "Two-toned Layered": {
+        "collection": "wearables",
+        "floor": 9.99,
+        "lastSalePrice": 2.6,
+        "supply": 372
+      },
+      "Crumple Crown": {
+        "collection": "wearables",
+        "floor": 10,
+        "lastSalePrice": 2,
+        "supply": 375
+      },
+      "Crimstone Boots": {
+        "collection": "wearables",
+        "floor": 10,
+        "lastSalePrice": 2.7,
+        "supply": 173
+      },
+      "Pineapple Shirt": {
+        "collection": "wearables",
+        "floor": 10,
+        "lastSalePrice": 3,
+        "supply": 389
+      },
+      "Sweet Devil Horns": {
+        "collection": "wearables",
+        "floor": 11,
+        "lastSalePrice": 4,
+        "supply": 361
+      },
+      "Infected Potion": {
+        "collection": "wearables",
+        "floor": 11,
+        "lastSalePrice": 5,
+        "supply": 900
+      },
+      "Mushroom Shoes": {
+        "collection": "wearables",
+        "floor": 11,
+        "lastSalePrice": 8.6,
+        "supply": 146
+      },
+      "Blacksmith Hair": {
+        "collection": "wearables",
+        "floor": 12,
+        "lastSalePrice": 8,
+        "supply": 384
+      },
+      "Bunny Mask": {
+        "collection": "wearables",
+        "floor": 13,
+        "lastSalePrice": 3.1,
+        "supply": 493
+      },
+      "Fire Hair": {
+        "collection": "wearables",
+        "floor": 13,
+        "lastSalePrice": 5,
+        "supply": 638
+      },
+      "Seaside Tank Top": {
+        "collection": "wearables",
+        "floor": 13,
+        "lastSalePrice": 8,
+        "supply": 137
+      },
+      "Halloween Deathscythe": {
+        "collection": "wearables",
+        "floor": 13,
+        "lastSalePrice": 12,
+        "supply": 247
+      },
+      "Elf Potion": {
+        "collection": "wearables",
+        "floor": 13.9999,
+        "lastSalePrice": 4.2005,
+        "supply": 551
+      },
+      "Pirate Pants": {
+        "collection": "wearables",
+        "floor": 14,
+        "lastSalePrice": 5,
+        "supply": 257
+      },
+      "Trick and Treat": {
+        "collection": "wearables",
+        "floor": 14.88,
+        "lastSalePrice": 3.5,
+        "supply": 218
+      },
+      "404 Chic Skirt": {
+        "collection": "wearables",
+        "floor": 14.95,
+        "lastSalePrice": 5,
+        "supply": 170
+      },
+      "Sweet Devil Dress": {
+        "collection": "wearables",
+        "floor": 15,
+        "lastSalePrice": 4.4,
+        "supply": 188
+      },
+      "Elf Hat": {
+        "collection": "wearables",
+        "floor": 15,
+        "lastSalePrice": 7,
+        "supply": 288
+      },
+      "Handheld Bunny": {
+        "collection": "wearables",
+        "floor": 15,
+        "lastSalePrice": 14,
+        "supply": 287
+      },
+      "Koi Fish Hat": {
+        "collection": "wearables",
+        "floor": 15,
+        "lastSalePrice": 15,
+        "supply": 119
+      },
+      "Propeller Hat": {
+        "collection": "wearables",
+        "floor": 15,
+        "lastSalePrice": 15,
+        "supply": 150
+      },
+      "Polkastarter Shirt": {
+        "collection": "wearables",
+        "floor": 15,
+        "lastSalePrice": 27,
+        "supply": 505
+      },
+      "Frank Onesie": {
+        "collection": "wearables",
+        "floor": 16,
+        "lastSalePrice": 12,
+        "supply": 290
+      },
+      "Eggplant Onesie": {
+        "collection": "wearables",
+        "floor": 16,
+        "lastSalePrice": 15,
+        "supply": 5149
+      },
+      "Aether Specs": {
+        "collection": "wearables",
+        "floor": 17,
+        "lastSalePrice": 8,
+        "supply": 188
+      },
+      "Underworld Stimpack": {
+        "collection": "wearables",
+        "floor": 17.5,
+        "lastSalePrice": 6,
+        "supply": 288
+      },
+      "Fishing Spear": {
+        "collection": "wearables",
+        "floor": 17.77,
+        "lastSalePrice": 2.777,
+        "supply": 161
+      },
+      "Pale Potion": {
+        "collection": "wearables",
+        "floor": 18,
+        "lastSalePrice": 7.5,
+        "supply": 449
+      },
+      "White Sheep Onesie": {
+        "collection": "wearables",
+        "floor": 18.99,
+        "lastSalePrice": 19.001,
+        "supply": 3132
+      },
+      "Blue Blossom Shirt": {
+        "collection": "wearables",
+        "floor": 19,
+        "lastSalePrice": 5.1,
+        "supply": 50
+      },
+      "Ladybug Suit": {
+        "collection": "wearables",
+        "floor": 19.796,
+        "lastSalePrice": 19.8,
+        "supply": 921
+      },
+      "Goblin Puppet": {
+        "collection": "wearables",
+        "floor": 20,
+        "lastSalePrice": 10,
+        "supply": 159
+      },
+      "Xmas Top Hat": {
+        "collection": "wearables",
+        "floor": 20,
+        "lastSalePrice": 10,
+        "supply": 130
+      },
+      "Architect Ruler": {
+        "collection": "wearables",
+        "floor": 21.9999,
+        "lastSalePrice": 20,
+        "supply": 2384
+      },
+      "Luscious Hair": {
+        "collection": "wearables",
+        "floor": 22,
+        "lastSalePrice": 7,
+        "supply": 251
+      },
+      "Dawn Lamp": {
+        "collection": "wearables",
+        "floor": 23,
+        "lastSalePrice": 10,
+        "supply": 131
+      },
+      "Faulty Barrier Background": {
+        "collection": "wearables",
+        "floor": 24,
+        "lastSalePrice": 15,
+        "supply": 128
+      },
+      "Neon Noiz Pants": {
+        "collection": "wearables",
+        "floor": 24.9899,
+        "lastSalePrice": 14,
+        "supply": 181
+      },
+      "Warrior Pants": {
+        "collection": "wearables",
+        "floor": 26,
+        "lastSalePrice": 4,
+        "supply": 527
+      },
+      "Carrot Amulet": {
+        "collection": "wearables",
+        "floor": 26,
+        "lastSalePrice": 24,
+        "supply": 5000
+      },
+      "Sunflower Amulet": {
+        "collection": "wearables",
+        "floor": 26,
+        "lastSalePrice": 26,
+        "supply": 5001
+      },
+      "Bumpkin Puppet": {
+        "collection": "wearables",
+        "floor": 28,
+        "lastSalePrice": 10,
+        "supply": 95
+      },
+      "Olive Royalty Shirt": {
+        "collection": "wearables",
+        "floor": 30,
+        "lastSalePrice": 25.7,
+        "supply": 2046
+      },
+      "Banana Onesie": {
+        "collection": "wearables",
+        "floor": 30.9999,
+        "lastSalePrice": 25.0011,
+        "supply": 3133
+      },
+      "Stockeye Salmon Onesie": {
+        "collection": "wearables",
+        "floor": 31,
+        "lastSalePrice": 15,
+        "supply": 162
+      },
+      "Moonseeker Potion": {
+        "collection": "wearables",
+        "floor": 32,
+        "lastSalePrice": 17,
+        "supply": 275
+      },
+      "Dream Scarf": {
+        "collection": "wearables",
+        "floor": 32.5,
+        "lastSalePrice": 29,
+        "supply": 1158
+      },
+      "Crab Claw": {
+        "collection": "wearables",
+        "floor": 34,
+        "lastSalePrice": 10,
+        "supply": 100
+      },
+      "Paint Spray Can": {
+        "collection": "wearables",
+        "floor": 34.999,
+        "lastSalePrice": 2.5001,
+        "supply": 168
+      },
+      "Bumpkin Boots": {
+        "collection": "wearables",
+        "floor": 35,
+        "lastSalePrice": 3,
+        "supply": 121
+      },
+      "SFL T-Shirt": {
+        "collection": "wearables",
+        "floor": 35,
+        "lastSalePrice": 4,
+        "supply": 402
+      },
+      "Cozy Reindeer Onesie": {
+        "collection": "wearables",
+        "floor": 36,
+        "lastSalePrice": 36,
+        "supply": 193
+      },
+      "Flower Bouquet": {
+        "collection": "wearables",
+        "floor": 36.9999,
+        "lastSalePrice": 5,
+        "supply": 100
+      },
+      "Pumpkin Head": {
+        "collection": "wearables",
+        "floor": 37,
+        "lastSalePrice": 8.99,
+        "supply": 254
+      },
+      "Snowman Onesie": {
+        "collection": "wearables",
+        "floor": 37,
+        "lastSalePrice": 16,
+        "supply": 186
+      },
+      "Royal Robe": {
+        "collection": "wearables",
+        "floor": 38,
+        "lastSalePrice": 11,
+        "supply": 214
+      },
+      "Butterfly Wings": {
+        "collection": "wearables",
+        "floor": 38,
+        "lastSalePrice": 21,
+        "supply": 227
+      },
+      "Maiden Top": {
+        "collection": "wearables",
+        "floor": 39,
+        "lastSalePrice": 4,
+        "supply": 159
+      },
+      "Slime Hat": {
+        "collection": "wearables",
+        "floor": 39,
+        "lastSalePrice": 10.11,
+        "supply": 72
+      },
+      "Crimstone Pants": {
+        "collection": "wearables",
+        "floor": 39,
+        "lastSalePrice": 15,
+        "supply": 95
+      },
+      "Neon Noiz Jacket": {
+        "collection": "wearables",
+        "floor": 40,
+        "lastSalePrice": 35,
+        "supply": 75
+      },
+      "Imp Costume": {
+        "collection": "wearables",
+        "floor": 41.9999,
+        "lastSalePrice": 11.1,
+        "supply": 154
+      },
+      "Corn Onesie": {
+        "collection": "wearables",
+        "floor": 41.9999,
+        "lastSalePrice": 37,
+        "supply": 3184
+      },
+      "Easter Apron": {
+        "collection": "wearables",
+        "floor": 45.998,
+        "lastSalePrice": 11,
+        "supply": 109
+      },
+      "Beetroot Amulet": {
+        "collection": "wearables",
+        "floor": 46,
+        "lastSalePrice": 39,
+        "supply": 2999
+      },
+      "Normal Fish Hat": {
+        "collection": "wearables",
+        "floor": 47,
+        "lastSalePrice": 15,
+        "supply": 98
+      },
+      "Saw Fish": {
+        "collection": "wearables",
+        "floor": 48,
+        "lastSalePrice": 42.0002,
+        "supply": 2353
+      },
+      "Bee Suit": {
+        "collection": "wearables",
+        "floor": 48,
+        "lastSalePrice": 48,
+        "supply": 2892
+      },
+      "Bee Wings": {
+        "collection": "wearables",
+        "floor": 49,
+        "lastSalePrice": 15.1,
+        "supply": 79
+      },
+      "404 Chic Top": {
+        "collection": "wearables",
+        "floor": 50,
+        "lastSalePrice": 44,
+        "supply": 67
+      },
+      "Tiki Armor": {
+        "collection": "wearables",
+        "floor": 53.999,
+        "lastSalePrice": 9,
+        "supply": 114
+      },
+      "Crow Wings": {
+        "collection": "wearables",
+        "floor": 54,
+        "lastSalePrice": 19,
+        "supply": 336
+      },
+      "Sweet Devil Wings": {
+        "collection": "wearables",
+        "floor": 54,
+        "lastSalePrice": 24,
+        "supply": 161
+      },
+      "Dawn Breaker Background": {
+        "collection": "wearables",
+        "floor": 54,
+        "lastSalePrice": 56,
+        "supply": 154
+      },
+      "Chef Apron": {
+        "collection": "wearables",
+        "floor": 56,
+        "lastSalePrice": 57,
+        "supply": 3011
+      },
+      "Jail Background": {
+        "collection": "wearables",
+        "floor": 58,
+        "lastSalePrice": 20,
+        "supply": 112
+      },
+      "Camel Onesie": {
+        "collection": "wearables",
+        "floor": 59.69,
+        "lastSalePrice": 59,
+        "supply": 3193
+      },
+      "Love Quiver": {
+        "collection": "wearables",
+        "floor": 64,
+        "lastSalePrice": 6,
+        "supply": 340
+      },
+      "Sunburst Potion": {
+        "collection": "wearables",
+        "floor": 64,
+        "lastSalePrice": 23,
+        "supply": 192
+      },
+      "Wisp Aura": {
+        "collection": "wearables",
+        "floor": 64,
+        "lastSalePrice": 40,
+        "supply": 211
+      },
+      "Space Background": {
+        "collection": "wearables",
+        "floor": 65,
+        "lastSalePrice": 30,
+        "supply": 233
+      },
+      "Harry's Hat": {
+        "collection": "wearables",
+        "floor": 73,
+        "lastSalePrice": 20,
+        "supply": 50
+      },
+      "Shark Onesie": {
+        "collection": "wearables",
+        "floor": 78,
+        "lastSalePrice": 36,
+        "supply": 300
+      },
+      "Beehive Staff": {
+        "collection": "wearables",
+        "floor": 79,
+        "lastSalePrice": 6.2,
+        "supply": 180
+      },
+      "Skinning Knife": {
+        "collection": "wearables",
+        "floor": 80,
+        "lastSalePrice": 25,
+        "supply": 57
+      },
+      "Abyssal Angler Hat": {
+        "collection": "wearables",
+        "floor": 80,
+        "lastSalePrice": 35,
+        "supply": 105
+      },
+      "Teal Mohawk": {
+        "collection": "wearables",
+        "floor": 83,
+        "lastSalePrice": 53,
+        "supply": 131
+      },
+      "Mountain View Background": {
+        "collection": "wearables",
+        "floor": 95,
+        "lastSalePrice": 29,
+        "supply": 103
+      },
+      "Fishing Pants": {
+        "collection": "wearables",
+        "floor": 96,
+        "lastSalePrice": 5.1,
+        "supply": 42
+      },
+      "Chicken Hat": {
+        "collection": "wearables",
+        "floor": 98,
+        "lastSalePrice": 97.9,
+        "supply": 44
+      },
+      "Fancy Pants": {
+        "collection": "wearables",
+        "floor": 99,
+        "lastSalePrice": 150,
+        "supply": 61
+      },
+      "Scarab Wings": {
+        "collection": "wearables",
+        "floor": 100,
+        "lastSalePrice": 50.1,
+        "supply": 90
+      },
+      "Beekeeper Hat": {
+        "collection": "wearables",
+        "floor": 103.9998,
+        "lastSalePrice": 90.5,
+        "supply": 2108
+      },
+      "Crab Trap": {
+        "collection": "wearables",
+        "floor": 111,
+        "lastSalePrice": 110.9999,
+        "supply": 584
+      },
+      "Fossil Head": {
+        "collection": "wearables",
+        "floor": 113,
+        "lastSalePrice": 75,
+        "supply": 65
+      },
+      "Holiday Feast Background": {
+        "collection": "wearables",
+        "floor": 115,
+        "lastSalePrice": 21,
+        "supply": 52
+      },
+      "Crimstone Armor": {
+        "collection": "wearables",
+        "floor": 119.9999,
+        "lastSalePrice": 104.0001,
+        "supply": 2835
+      },
+      "Hawaiian Shirt": {
+        "collection": "wearables",
+        "floor": 121,
+        "lastSalePrice": 30,
+        "supply": 93
+      },
+      "Mushroom Hat": {
+        "collection": "wearables",
+        "floor": 123,
+        "lastSalePrice": 128,
+        "supply": 999
+      },
+      "Slime Wings": {
+        "collection": "wearables",
+        "floor": 131,
+        "lastSalePrice": 55,
+        "supply": 77
+      },
+      "Red Long Hair": {
+        "collection": "wearables",
+        "floor": 144,
+        "lastSalePrice": 13,
+        "supply": 111
+      },
+      "Fire Shirt": {
+        "collection": "wearables",
+        "floor": 148,
+        "lastSalePrice": 23,
+        "supply": 126
+      },
+      "Deep Sea Salt Cave Background": {
+        "collection": "wearables",
+        "floor": 150,
+        "lastSalePrice": 149,
+        "supply": 1731
+      },
+      "Bear Onesie": {
+        "collection": "wearables",
+        "floor": 190,
+        "lastSalePrice": 66,
+        "supply": 71
+      },
+      "Banana Amulet": {
+        "collection": "wearables",
+        "floor": 192,
+        "lastSalePrice": 193,
+        "supply": 500
+      },
+      "Grape Pants": {
+        "collection": "wearables",
+        "floor": 198.5,
+        "lastSalePrice": 175,
+        "supply": 587
+      },
+      "Chicken Suit": {
+        "collection": "wearables",
+        "floor": 207,
+        "lastSalePrice": 160,
+        "supply": 523
+      },
+      "Broccoli Hat": {
+        "collection": "wearables",
+        "floor": 208,
+        "lastSalePrice": 197,
+        "supply": 350
+      },
+      "Locust King Onesie": {
+        "collection": "wearables",
+        "floor": 225,
+        "lastSalePrice": 43,
+        "supply": 40
+      },
+      "Fancy Top": {
+        "collection": "wearables",
+        "floor": 229,
+        "lastSalePrice": 100,
+        "supply": 74
+      },
+      "Cardboard Wings": {
+        "collection": "wearables",
+        "floor": 240,
+        "lastSalePrice": 496,
+        "supply": 44
+      },
+      "Corn Silk Hair": {
+        "collection": "wearables",
+        "floor": 259,
+        "lastSalePrice": 240,
+        "supply": 1864
+      },
+      "Slime Aura": {
+        "collection": "wearables",
+        "floor": 271,
+        "lastSalePrice": 54,
+        "supply": 86
+      },
+      "Bubble Aura": {
+        "collection": "wearables",
+        "floor": 280,
+        "lastSalePrice": 255,
+        "supply": 833
+      },
+      "Olive Shield": {
+        "collection": "wearables",
+        "floor": 280,
+        "lastSalePrice": 271,
+        "supply": 529
+      },
+      "Merino Jumper": {
+        "collection": "wearables",
+        "floor": 281,
+        "lastSalePrice": 154,
+        "supply": 445
+      },
+      "Glacial Plume": {
+        "collection": "wearables",
+        "floor": 289,
+        "lastSalePrice": 200,
+        "supply": 35
+      },
+      "Fresh Catch Vest": {
+        "collection": "wearables",
+        "floor": 299,
+        "lastSalePrice": 7,
+        "supply": 43
+      },
+      "Diamond Snow Aura": {
+        "collection": "wearables",
+        "floor": 299,
+        "lastSalePrice": 150,
+        "supply": 65
+      },
+      "Snowman Mask": {
+        "collection": "wearables",
+        "floor": 300,
+        "lastSalePrice": 33,
+        "supply": 32
+      },
+      "Oil Can": {
+        "collection": "wearables",
+        "floor": 322,
+        "lastSalePrice": 300,
+        "supply": 630
+      },
+      "Crab Hat": {
+        "collection": "wearables",
+        "floor": 325,
+        "lastSalePrice": 280.0001,
+        "supply": 993
+      },
+      "Squirrel Onesie": {
+        "collection": "wearables",
+        "floor": 330,
+        "lastSalePrice": 353,
+        "supply": 450
+      },
+      "Infernal Bumpkin Potion": {
+        "collection": "wearables",
+        "floor": 340,
+        "lastSalePrice": 75,
+        "supply": 66
+      },
+      "Medic Apron": {
+        "collection": "wearables",
+        "floor": 357,
+        "lastSalePrice": 212,
+        "supply": 200
+      },
+      "Victoria's Apron": {
+        "collection": "wearables",
+        "floor": 360,
+        "lastSalePrice": 359,
+        "supply": 200
+      },
+      "Clown Shirt": {
+        "collection": "wearables",
+        "floor": 400,
+        "lastSalePrice": 50,
+        "supply": 46
+      },
+      "Glitch Aura": {
+        "collection": "wearables",
+        "floor": 400,
+        "lastSalePrice": 122,
+        "supply": 62
+      },
+      "Non La Hat": {
+        "collection": "wearables",
+        "floor": 413,
+        "lastSalePrice": 359,
+        "supply": 530
+      },
+      "Pistol Shrimp": {
+        "collection": "wearables",
+        "floor": 443,
+        "lastSalePrice": 340,
+        "supply": 200
+      },
+      "Rocket Onesie": {
+        "collection": "wearables",
+        "floor": 445,
+        "lastSalePrice": 199,
+        "supply": 20
+      },
+      "Hornet Mask": {
+        "collection": "wearables",
+        "floor": 468,
+        "lastSalePrice": 381,
+        "supply": 315
+      },
+      "Frog Onesie": {
+        "collection": "wearables",
+        "floor": 487,
+        "lastSalePrice": 76,
+        "supply": 55
+      },
+      "Pirate General Coat": {
+        "collection": "wearables",
+        "floor": 494,
+        "lastSalePrice": 149,
+        "supply": 50
+      },
+      "Pirate Scimitar": {
+        "collection": "wearables",
+        "floor": 496,
+        "lastSalePrice": 36,
+        "supply": 50
+      },
+      "Beast Shoes": {
+        "collection": "wearables",
+        "floor": 497,
+        "lastSalePrice": 369,
+        "supply": 280
+      },
+      "Club Polo": {
+        "collection": "wearables",
+        "floor": 499,
+        "lastSalePrice": 35,
+        "supply": 35
+      },
+      "Paw Shield": {
+        "collection": "wearables",
+        "floor": 519,
+        "lastSalePrice": 520,
+        "supply": 255
+      },
+      "Sunflower Shield": {
+        "collection": "wearables",
+        "floor": 550,
+        "lastSalePrice": 649,
+        "supply": 68
+      },
+      "Parsnip": {
+        "collection": "wearables",
+        "floor": 566,
+        "lastSalePrice": 516,
+        "supply": 152
+      },
+      "Milk Apron": {
+        "collection": "wearables",
+        "floor": 584,
+        "lastSalePrice": 565,
+        "supply": 729
+      },
+      "Crimstone Amulet": {
+        "collection": "wearables",
+        "floor": 649,
+        "lastSalePrice": 675,
+        "supply": 529
+      },
+      "Lemon Shield": {
+        "collection": "wearables",
+        "floor": 750,
+        "lastSalePrice": 811,
+        "supply": 265
+      },
+      "Sol & Luna": {
+        "collection": "wearables",
+        "floor": 780,
+        "lastSalePrice": 401,
+        "supply": 175
+      },
+      "Frozen Heart": {
+        "collection": "wearables",
+        "floor": 798,
+        "lastSalePrice": 651,
+        "supply": 300
+      },
+      "Infernal Goblin Potion": {
+        "collection": "wearables",
+        "floor": 849,
+        "lastSalePrice": 222,
+        "supply": 100
+      },
+      "Golden Spatula": {
+        "collection": "wearables",
+        "floor": 886,
+        "lastSalePrice": 840,
+        "supply": 405
+      },
+      "Pickaxe Shark": {
+        "collection": "wearables",
+        "floor": 947,
+        "lastSalePrice": 949,
+        "supply": 313
+      },
+      "Tiger Onesie": {
+        "collection": "wearables",
+        "floor": 1000,
+        "lastSalePrice": 600,
+        "supply": 25
+      },
+      "Oil Gallon": {
+        "collection": "wearables",
+        "floor": 1140,
+        "lastSalePrice": 1061,
+        "supply": 275
+      },
+      "Blossom Ward": {
+        "collection": "wearables",
+        "floor": 1150,
+        "lastSalePrice": 850,
+        "supply": 300
+      },
+      "Bumpkin Art Competition Merch": {
+        "collection": "wearables",
+        "floor": 1300,
+        "lastSalePrice": 11,
+        "supply": 75
+      },
+      "Black Sheep Onesie": {
+        "collection": "wearables",
+        "floor": 1379,
+        "lastSalePrice": 1343,
+        "supply": 270
+      },
+      "Skull Hat": {
+        "collection": "wearables",
+        "floor": 1500,
+        "lastSalePrice": 2500,
+        "supply": 26
+      },
+      "Squid Hat": {
+        "collection": "wearables",
+        "floor": 1666,
+        "lastSalePrice": 28,
+        "supply": 47
+      },
+      "Solflare Aegis": {
+        "collection": "wearables",
+        "floor": 1895,
+        "lastSalePrice": 1210,
+        "supply": 150
+      },
+      "Training Whistle": {
+        "collection": "wearables",
+        "floor": 1899,
+        "lastSalePrice": 1500,
+        "supply": 350
+      },
+      "Oracle Syringe": {
+        "collection": "wearables",
+        "floor": 1900,
+        "lastSalePrice": 1938.9993,
+        "supply": 249
+      },
+      "Sickle": {
+        "collection": "wearables",
+        "floor": 2183,
+        "lastSalePrice": 2050,
+        "supply": 311
+      },
+      "Honeycomb Shield": {
+        "collection": "wearables",
+        "floor": 2700,
+        "lastSalePrice": 1880,
+        "supply": 100
+      },
+      "Flower Crown": {
+        "collection": "wearables",
+        "floor": 2900,
+        "lastSalePrice": 3856,
+        "supply": 105
+      },
+      "Green Amulet": {
+        "collection": "wearables",
+        "floor": 3189,
+        "lastSalePrice": 2821,
+        "supply": 800
+      },
+      "Oil Overalls": {
+        "collection": "wearables",
+        "floor": 3343,
+        "lastSalePrice": 3555,
+        "supply": 115
+      },
+      "Dev Wrench": {
+        "collection": "wearables",
+        "floor": 3389,
+        "lastSalePrice": 5400,
+        "supply": 55
+      },
+      "Cattlegrim": {
+        "collection": "wearables",
+        "floor": 3560,
+        "lastSalePrice": 2000,
+        "supply": 210
+      },
+      "Obsidian Necklace": {
+        "collection": "wearables",
+        "floor": 4000,
+        "lastSalePrice": 4250,
+        "supply": 205
+      },
+      "Autumn's Embrace": {
+        "collection": "wearables",
+        "floor": 4500,
+        "lastSalePrice": 4650,
+        "supply": 150
+      },
+      "Cowbell Necklace": {
+        "collection": "wearables",
+        "floor": 4979,
+        "lastSalePrice": 4700,
+        "supply": 265
+      },
+      "Lava Swimwear": {
+        "collection": "wearables",
+        "floor": 5300,
+        "lastSalePrice": 8200,
+        "supply": 250
+      },
+      "Crimstone Hammer": {
+        "collection": "wearables",
+        "floor": 6895,
+        "lastSalePrice": 6899,
+        "supply": 105
+      },
+      "Infernal Bullwhip": {
+        "collection": "wearables",
+        "floor": 8200,
+        "lastSalePrice": 5555,
+        "supply": 210
+      },
+      "Ancient Rod": {
+        "collection": "wearables",
+        "floor": 8989,
+        "lastSalePrice": 4090,
+        "supply": 105
+      },
+      "Whale Hat": {
+        "collection": "wearables",
+        "floor": 10000,
+        "lastSalePrice": 55,
+        "supply": 25
+      },
+      "Pan": {
+        "collection": "wearables",
+        "floor": 11333,
+        "lastSalePrice": 9999,
+        "supply": 60
+      },
+      "Luna's Hat": {
+        "collection": "wearables",
+        "floor": 11793,
+        "lastSalePrice": 17498,
+        "supply": 55
+      },
+      "Crimstone Spikes Hair": {
+        "collection": "wearables",
+        "floor": 20000,
+        "lastSalePrice": 16450,
+        "supply": 80
+      },
+      "Paw Aura": {
+        "collection": "wearables",
+        "floor": 22554,
+        "lastSalePrice": 28000,
+        "supply": 110
+      },
+      "Angel Wings": {
+        "collection": "wearables",
+        "floor": 25000,
+        "lastSalePrice": 25000,
+        "supply": 25
+      },
+      "Infernal Drill": {
+        "collection": "wearables",
+        "floor": 33900,
+        "lastSalePrice": 20000,
+        "supply": 55
+      },
+      "Developer Hoodie": {
+        "collection": "wearables",
+        "floor": 42069,
+        "lastSalePrice": 0,
+        "supply": 20
+      },
+      "Ancient Shovel": {
+        "collection": "wearables",
+        "floor": 48959,
+        "lastSalePrice": 16000,
+        "supply": 30
+      },
+      "Devil Wings": {
+        "collection": "wearables",
+        "floor": 66666,
+        "lastSalePrice": 24500,
+        "supply": 25
+      },
+      "Infernal Pitchfork": {
+        "collection": "wearables",
+        "floor": 88999,
+        "lastSalePrice": 70000,
+        "supply": 20
+      },
+      "Coin Aura": {
+        "collection": "wearables",
+        "floor": 88888888,
+        "lastSalePrice": 0,
+        "supply": 1
+      },
+      "Farmer Hat": {
+        "collection": "wearables",
+        "floor": 0,
+        "lastSalePrice": 0,
+        "supply": 0
+      },
+      "Maiden Skirt": {
+        "collection": "wearables",
+        "floor": 0,
+        "lastSalePrice": 0,
+        "supply": 0
+      },
+      "Artist Scarf": {
+        "collection": "wearables",
+        "floor": 0,
+        "lastSalePrice": 0,
+        "supply": 20
+      },
+      "Hammer": {
+        "collection": "wearables",
+        "floor": 0,
+        "lastSalePrice": 0,
+        "supply": 0
+      },
+      "Beach Sarong": {
+        "collection": "wearables",
+        "floor": 0,
+        "lastSalePrice": 0,
+        "supply": 5
+      },
+      "Tropical Sarong": {
+        "collection": "wearables",
+        "floor": 0,
+        "lastSalePrice": 0,
+        "supply": 5
+      },
+      "Sequence Hat": {
+        "collection": "wearables",
+        "floor": 0,
+        "lastSalePrice": 0,
+        "supply": 505
+      },
+      "Sequence Shirt": {
+        "collection": "wearables",
+        "floor": 0,
+        "lastSalePrice": 0,
+        "supply": 505
+      },
+      "Grave Diggers Shovel": {
+        "collection": "wearables",
+        "floor": 0,
+        "lastSalePrice": 0,
+        "supply": 0
+      },
+      "Striped Yellow Shirt": {
+        "collection": "wearables",
+        "floor": 0,
+        "lastSalePrice": 0,
+        "supply": 0
+      },
+      "White Turtle Neck": {
+        "collection": "wearables",
+        "floor": 0,
+        "lastSalePrice": 0,
+        "supply": 0
+      },
+      "Infernal Rod": {
+        "collection": "wearables",
+        "floor": 0,
+        "lastSalePrice": 0,
+        "supply": 0
+      },
+      "Flip Flops": {
+        "collection": "wearables",
+        "floor": 0,
+        "lastSalePrice": 0,
+        "supply": 0
+      },
+      "Tackle Box": {
+        "collection": "wearables",
+        "floor": 0,
+        "lastSalePrice": 0,
+        "supply": 0
+      },
+      "Bee Smoker": {
+        "collection": "wearables",
+        "floor": 0,
+        "lastSalePrice": 0,
+        "supply": 0
+      },
+      "Cowboy Boots": {
+        "collection": "wearables",
+        "floor": 0,
+        "lastSalePrice": 0,
+        "supply": 0
+      }
+    }
   }
 ]
